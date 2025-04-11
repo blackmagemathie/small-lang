@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-    --color-paper: #224;
-    --color-ink: #dfd;
-    --color-stone: #456;
-    --color-gem: #e6d;
+    --color-paper: #1c2434;
+    --color-ink: #dcece4;
+    --color-stone: #486474;
+    --color-gem: #cc9478;
 }
