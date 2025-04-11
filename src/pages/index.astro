@@ -1,15 +1,70 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+
+const families = [
+    {
+        name: "basheste",
+        slug: "basheste",
+        links: [
+            {
+                name: "alphabet",
+                slug: "syllabary"
+            },
+            {
+                name: "logograms",
+                slug: "logograms"
+            },
+            {
+                name: "logogram radicals",
+                slug: "logograms/radicals"
+            }
+        ]
+    },
+    {
+        name: "il'suastet",
+        slug: "il-suastet",
+        links: [
+            {
+                name: "syllabary",
+                slug: "syllabary"
+            },
+        ]
+    }
+]
 ---
 
-<Layout title="">
-    <main class="container px-8 mx-auto">
-        <h1 class="text-6xl font-bold mb-4 text-gem">small-lang</h1>
+<Layout title="home">
+    <main class="container max-w-3xl px-8 mx-auto">
+        <h1 class="text-6xl font-bold mb-4 text-gem">Luscept languages</h1>
 
         <p class="my-4 italic">
-            lang by <a href="https://github.com/descenacre">descenacre</a><br/>
+            contents by <a href="https://github.com/descenacre">descenacre</a><br/>
             website code by <a href="https://mathie.gay/">mathie</a>
         </p>
 
-        <p>Greetings, voyager! Here, you may find information about <span class="font-bold">small-lang</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam mollitia excepturi accusamus! Asperiores nostrum unde autem tempora veritatis odit quidem consequatur, eum dolorum natus aliquam cupiditate voluptate sunt modi velit.</p>
+        <p>greetings, voyager! here, you may find information about the <span class="font-bold">Luscept languages</span>. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam mollitia excepturi accusamus! Asperiores nostrum unde autem tempora veritatis odit quidem consequatur, eum dolorum natus aliquam cupiditate voluptate sunt modi velit.</p>
+
+        <div class="mt-8">
+            {families.map(family => (
+                <div class="my-4 family">
+                    <p class="font-display text-2xl font-bold">{family.name}</p>
+                    <ul class="list-disc">
+                        {family.links.map(link =>(
+                            <li class="ml-4">
+                                <a href={"/"+family.slug+"/"+link.slug}>{link.name}</a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
+        </div>
+    </main>
 </Layout>
+
+<style lang="scss">
+
+    .branch {
+        color: var(--color-gem);
+    }
+
+</style>

@@ -1,0 +1,17 @@
+a:not([class]):not(:has(img)) {
+    color: var(--color-gem);
+    text-decoration: underline;
+    text-decoration-thickness: .1rem;
+
+    &:hover {
+        color: var(--color-gem-shine);
+    }
+
+    &:focus-visible {
+        outline-offset: .125rem;
+    }
+}
+
+.font-display {
+    font-family: var(--font-heading);
+}
