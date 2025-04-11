@@ -1,10 +1,55 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import Ariadne from '@/components/Ariadne.astro';
+
+const ariadne = [
+    {
+        name: "home",
+        url: "/"
+    },
+    {
+        name: "Basheste",
+        url: "/basheste"
+    }
+]
+
+const alphabet = [
+    0,0,0,0,0,0,0,0,0,0,0,0
+]
 ---
 
 <Layout tab="alphabet (Basheste)">
     <main class="container max-w-3xl px-8 mx-auto">
-        <h1 class="text-6xl font-bold mb-4 text-gem">Basheste alphabet</h1>
+        <h1 class="text-6xl font-bold mb-4">Basheste alphabet</h1>
+        <Ariadne links={ariadne}/>
+
+        <div class="max-w-4xl mt-8 grid grid-cols-6 gap-4">
+            {alphabet.map(letter => (
+                <div>
+                    <div class="letter bg-stone center mx-auto aspect-square rounded-full">
+                        <a href="/" class="block h-full w-full">
+                            <div class="flex h-full">
+                                <img src="/dummyglyph.svg" class="m-auto">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            ))}
+        </div>
         
     </main>
 </Layout>
+
+<style lang="scss">
+
+    .letter {
+        img {
+            width: 60%;
+            height: 60%;
+        }
+        &:hover {
+            background-color: var(--color-gem);
+        }
+    }
+
+</style>
