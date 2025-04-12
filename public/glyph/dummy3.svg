@@ -6,11 +6,15 @@
         fill: none;
         stroke: #1d1d1b;
         stroke-linecap: square;
-        stroke-linejoin: bevel;
+        stroke-linejoin: round;
         stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #1d1d1b;
       }
     </style>
   </defs>
-  <polyline class="cls-1" points="5 1 5 5 9 5 9 9 5 9"/>
-  <polyline class="cls-1" points="1 9 1 1 9 1"/>
+  <polyline class="cls-1" points="5 9 5 5 7 5"/>
+  <rect class="cls-2" x="4" width="2" height="2"/>
 </svg>

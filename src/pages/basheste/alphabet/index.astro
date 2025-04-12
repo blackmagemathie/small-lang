@@ -1,6 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import Ariadne from '@/components/Ariadne.astro';
+import Glyph from '@/components/Glyph.astro';
 
 const ariadne = [
     {
@@ -10,26 +11,43 @@ const ariadne = [
     {
         name: "Basheste",
         url: "/basheste"
+    },
+    {
+        name: "alphabet"
     }
 ]
 
 const alphabet = [
-    0,0,0,0,0,0,0,0,0,0,0,0
+    {
+        name: "baba",
+        type: "vowel",
+        src: "dummy1.svg"
+    },
+    {
+        name: "keke",
+        type: "consonant",
+        src: "dummy2.svg"
+    },
+    {
+        name: "jiji",
+        type: "punctuation",
+        src: "dummy3.svg"
+    }
 ]
 ---
 
 <Layout tab="alphabet (Basheste)">
     <main class="container max-w-3xl px-8 mx-auto">
-        <h1 class="text-6xl font-bold mb-4">Basheste alphabet</h1>
+        <h1 class="text-6xl font-bold mb-4">alphabet (Basheste)</h1>
         <Ariadne links={ariadne}/>
 
         <div class="max-w-4xl mt-8 grid grid-cols-6 gap-4">
             {alphabet.map(letter => (
                 <div>
-                    <div class="letter bg-stone center mx-auto aspect-square rounded-full">
+                    <div class="letter border-stone bg-paper border-2 center mx-auto aspect-square rounded-sm">
                         <a href="/" class="block h-full w-full">
                             <div class="flex h-full">
-                                <img src="/dummyglyph.svg" class="m-auto">
+                                <Glyph src={letter.src} />
                             </div>
                         </a>
                     </div>
@@ -43,12 +61,10 @@ const alphabet = [
 <style lang="scss">
 
     .letter {
-        img {
-            width: 60%;
-            height: 60%;
-        }
         &:hover {
             background-color: var(--color-gem);
+            border-color: var(--color-gem);
+            color: var(--color-paper);
         }
     }
 
