@@ -21,17 +21,17 @@ const alphabet = [
     {
         name: "baba",
         type: "vowel",
-        src: "dummy1.svg"
+        src: "/glyph/dummy1.svg"
     },
     {
         name: "keke",
         type: "consonant",
-        src: "dummy2.svg"
+        src: "/glyph/dummy2.svg"
     },
     {
         name: "jiji",
         type: "punctuation",
-        src: "dummy3.svg"
+        src: "/glyph/dummy3.svg"
     }
 ]
 ---
@@ -44,10 +44,12 @@ const alphabet = [
         <div class="max-w-4xl mt-8 grid grid-cols-6 gap-4">
             {alphabet.map(letter => (
                 <div>
-                    <div class="letter border-stone bg-paper border-2 center mx-auto aspect-square rounded-sm">
+                    <div class="letter bg-paper border-2 center mx-auto aspect-square rounded-sm">
                         <a href="/" class="block h-full w-full">
                             <div class="flex h-full">
-                                <Glyph src={letter.src} />
+                                <div class="letter-container m-auto" title={letter.name}>
+                                    <Glyph src={letter.src} />
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -61,11 +63,17 @@ const alphabet = [
 <style lang="scss">
 
     .letter {
+        color: var(--color-ink);
+        border-color: var(--color-gem);
         &:hover {
             background-color: var(--color-gem);
             border-color: var(--color-gem);
             color: var(--color-paper);
         }
+    }
+    .letter-container {
+        width: 60%;
+        height: 60%;
     }
 
 </style>

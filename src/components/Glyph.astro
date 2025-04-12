@@ -4,6 +4,16 @@ export interface Props {
 }
 
 const { src } = Astro.props as Props
+
+const importedSvg = await import(/* @vite-ignore */`${src}?raw`)
+const svgContent = importedSvg.default
+
 ---
 
-<img />
+<Fragment set:html={svgContent}/>
+
+<style lang="scss" is:global>
+    svg {
+        fill: currentColor;
+    }
+</style>
