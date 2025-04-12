@@ -1,2 +1,0 @@
-sprites are 256 x 256.
-there are 14 x 25 sprites
