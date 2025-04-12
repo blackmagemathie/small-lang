@@ -1,0 +1,2802 @@
+[
+  {
+    "filename": "0000.svg",
+    "name": "blank",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0001.svg",
+    "name": "pip",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0002.svg",
+    "name": "doublepip",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0003.svg",
+    "name": "sigh",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0004.svg",
+    "name": "comma",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0005.svg",
+    "name": "question",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0006.svg",
+    "name": "period",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0007.svg",
+    "name": "doubleperiod",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0008.svg",
+    "name": "ellipsis",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0009.svg",
+    "name": "stop",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0010.svg",
+    "name": "exclamation",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0011.svg",
+    "name": "additionsign",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0012.svg",
+    "name": "subtractionsign",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0013.svg",
+    "name": "nausche",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0014.svg",
+    "name": "placeholder",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "none"
+  },
+  {
+    "filename": "0015.svg",
+    "name": "numeral0",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "0"
+  },
+  {
+    "filename": "0016.svg",
+    "name": "numeral1",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "1"
+  },
+  {
+    "filename": "0017.svg",
+    "name": "numeral2",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "2"
+  },
+  {
+    "filename": "0018.svg",
+    "name": "numeral3",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "3"
+  },
+  {
+    "filename": "0019.svg",
+    "name": "numeral4",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "4"
+  },
+  {
+    "filename": "0020.svg",
+    "name": "numeral5",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "5"
+  },
+  {
+    "filename": "0021.svg",
+    "name": "numeral6",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "6"
+  },
+  {
+    "filename": "0022.svg",
+    "name": "numeral7",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "7"
+  },
+  {
+    "filename": "0023.svg",
+    "name": "numeral8",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "8"
+  },
+  {
+    "filename": "0024.svg",
+    "name": "numeral9",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "9"
+  },
+  {
+    "filename": "0025.svg",
+    "name": "numeralA",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "10"
+  },
+  {
+    "filename": "0026.svg",
+    "name": "numeralB",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "11"
+  },
+  {
+    "filename": "0027.svg",
+    "name": "numeral0alt",
+    "sound": "none",
+    "consonant-family": "none",
+    "vowel-family": "none",
+    "numeral": "0"
+  },
+  {
+    "filename": "0028.svg",
+    "name": "Xsm",
+    "sound": "Xsm.ogg",
+    "consonant-family": "X",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0029.svg",
+    "name": "Tsm",
+    "sound": "Tsm.ogg",
+    "consonant-family": "T",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0030.svg",
+    "name": "Dsm",
+    "sound": "Dsm.ogg",
+    "consonant-family": "D",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0031.svg",
+    "name": "Gsm",
+    "sound": "Gsm.ogg",
+    "consonant-family": "G",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0032.svg",
+    "name": "Ksm",
+    "sound": "Ksm.ogg",
+    "consonant-family": "K",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0033.svg",
+    "name": "Msm",
+    "sound": "Msm.ogg",
+    "consonant-family": "M",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0034.svg",
+    "name": "Nsm",
+    "sound": "Nsm.ogg",
+    "consonant-family": "N",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0035.svg",
+    "name": "Fsm",
+    "sound": "Fsm.ogg",
+    "consonant-family": "F",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0036.svg",
+    "name": "Bsm",
+    "sound": "Bsm.ogg",
+    "consonant-family": "B",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0037.svg",
+    "name": "Vsm",
+    "sound": "Vsm.ogg",
+    "consonant-family": "V",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0038.svg",
+    "name": "Psm",
+    "sound": "Psm.ogg",
+    "consonant-family": "P",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0039.svg",
+    "name": "Rsm",
+    "sound": "Rsm.ogg",
+    "consonant-family": "R",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0040.svg",
+    "name": "Lsm",
+    "sound": "Lsm.ogg",
+    "consonant-family": "L",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0041.svg",
+    "name": "THsm",
+    "sound": "THsm.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0042.svg",
+    "name": "DZsm",
+    "sound": "DZsm.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0043.svg",
+    "name": "Ssm",
+    "sound": "Ssm.ogg",
+    "consonant-family": "S",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0044.svg",
+    "name": "SHsm",
+    "sound": "SHsm.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0045.svg",
+    "name": "Zsm",
+    "sound": "Zsm.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0046.svg",
+    "name": "Hsm",
+    "sound": "Hsm.ogg",
+    "consonant-family": "H",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0047.svg",
+    "name": "CHsm",
+    "sound": "CHsm.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0048.svg",
+    "name": "STsm",
+    "sound": "STsm.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0049.svg",
+    "name": "SCsm",
+    "sound": "SCsm.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0050.svg",
+    "name": "SZsm",
+    "sound": "SZsm.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "sm",
+    "numeral": "none"
+  },
+  {
+    "filename": "0051.svg",
+    "name": "Xxx",
+    "sound": "Xxx.ogg",
+    "consonant-family": "X",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0052.svg",
+    "name": "Txx",
+    "sound": "Txx.ogg",
+    "consonant-family": "T",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0053.svg",
+    "name": "Dxx",
+    "sound": "Dxx.ogg",
+    "consonant-family": "D",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0054.svg",
+    "name": "Gxx",
+    "sound": "Gxx.ogg",
+    "consonant-family": "G",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0055.svg",
+    "name": "Kxx",
+    "sound": "Kxx.ogg",
+    "consonant-family": "K",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0056.svg",
+    "name": "Mxx",
+    "sound": "Mxx.ogg",
+    "consonant-family": "M",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0057.svg",
+    "name": "Nxx",
+    "sound": "Nxx.ogg",
+    "consonant-family": "N",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0058.svg",
+    "name": "Fxx",
+    "sound": "Fxx.ogg",
+    "consonant-family": "F",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0059.svg",
+    "name": "Bxx",
+    "sound": "Bxx.ogg",
+    "consonant-family": "B",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0060.svg",
+    "name": "Vxx",
+    "sound": "Vxx.ogg",
+    "consonant-family": "V",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0061.svg",
+    "name": "Pxx",
+    "sound": "Pxx.ogg",
+    "consonant-family": "P",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0062.svg",
+    "name": "Rxx",
+    "sound": "Rxx.ogg",
+    "consonant-family": "R",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0063.svg",
+    "name": "Lxx",
+    "sound": "Lxx.ogg",
+    "consonant-family": "L",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0064.svg",
+    "name": "THxx",
+    "sound": "THxx.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0065.svg",
+    "name": "DZxx",
+    "sound": "DZxx.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0066.svg",
+    "name": "Sxx",
+    "sound": "Sxx.ogg",
+    "consonant-family": "S",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0067.svg",
+    "name": "SHxx",
+    "sound": "SHxx.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0068.svg",
+    "name": "Zxx",
+    "sound": "Zxx.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0069.svg",
+    "name": "Hxx",
+    "sound": "Hxx.ogg",
+    "consonant-family": "H",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0070.svg",
+    "name": "CHxx",
+    "sound": "CHxx.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0071.svg",
+    "name": "STxx",
+    "sound": "STxx.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0072.svg",
+    "name": "SCxx",
+    "sound": "SCxx.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0073.svg",
+    "name": "SZxx",
+    "sound": "SZxx.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "xx",
+    "numeral": "none"
+  },
+  {
+    "filename": "0074.svg",
+    "name": "Xll",
+    "sound": "Xll.ogg",
+    "consonant-family": "X",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0075.svg",
+    "name": "Tll",
+    "sound": "Tll.ogg",
+    "consonant-family": "T",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0076.svg",
+    "name": "Dll",
+    "sound": "Dll.ogg",
+    "consonant-family": "D",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0077.svg",
+    "name": "Gll",
+    "sound": "Gll.ogg",
+    "consonant-family": "G",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0078.svg",
+    "name": "Kll",
+    "sound": "Kll.ogg",
+    "consonant-family": "K",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0079.svg",
+    "name": "Mll",
+    "sound": "Mll.ogg",
+    "consonant-family": "M",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0080.svg",
+    "name": "Nll",
+    "sound": "Nll.ogg",
+    "consonant-family": "N",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0081.svg",
+    "name": "Fll",
+    "sound": "Fll.ogg",
+    "consonant-family": "F",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0082.svg",
+    "name": "Bll",
+    "sound": "Bll.ogg",
+    "consonant-family": "B",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0083.svg",
+    "name": "Vll",
+    "sound": "Vll.ogg",
+    "consonant-family": "V",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0084.svg",
+    "name": "Pll",
+    "sound": "Pll.ogg",
+    "consonant-family": "P",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0085.svg",
+    "name": "Rll",
+    "sound": "Rll.ogg",
+    "consonant-family": "R",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0086.svg",
+    "name": "Lll",
+    "sound": "Lll.ogg",
+    "consonant-family": "L",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0087.svg",
+    "name": "THll",
+    "sound": "THll.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0088.svg",
+    "name": "DZll",
+    "sound": "DZll.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0089.svg",
+    "name": "Sll",
+    "sound": "Sll.ogg",
+    "consonant-family": "S",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0090.svg",
+    "name": "SHll",
+    "sound": "SHll.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0091.svg",
+    "name": "Zll",
+    "sound": "Zll.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0092.svg",
+    "name": "Hll",
+    "sound": "Hll.ogg",
+    "consonant-family": "H",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0093.svg",
+    "name": "CHll",
+    "sound": "CHll.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0094.svg",
+    "name": "STll",
+    "sound": "STll.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0095.svg",
+    "name": "SCll",
+    "sound": "SCll.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0096.svg",
+    "name": "SZll",
+    "sound": "SZll.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "ll",
+    "numeral": "none"
+  },
+  {
+    "filename": "0097.svg",
+    "name": "Xyr",
+    "sound": "Xyr.ogg",
+    "consonant-family": "X",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0098.svg",
+    "name": "Tyr",
+    "sound": "Tyr.ogg",
+    "consonant-family": "T",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0099.svg",
+    "name": "Dyr",
+    "sound": "Dyr.ogg",
+    "consonant-family": "D",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0100.svg",
+    "name": "Gyr",
+    "sound": "Gyr.ogg",
+    "consonant-family": "G",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0101.svg",
+    "name": "Kyr",
+    "sound": "Kyr.ogg",
+    "consonant-family": "K",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0102.svg",
+    "name": "Myr",
+    "sound": "Myr.ogg",
+    "consonant-family": "M",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0103.svg",
+    "name": "Nyr",
+    "sound": "Nyr.ogg",
+    "consonant-family": "N",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0104.svg",
+    "name": "Fyr",
+    "sound": "Fyr.ogg",
+    "consonant-family": "F",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0105.svg",
+    "name": "Byr",
+    "sound": "Byr.ogg",
+    "consonant-family": "B",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0106.svg",
+    "name": "Vyr",
+    "sound": "Vyr.ogg",
+    "consonant-family": "V",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0107.svg",
+    "name": "Pyr",
+    "sound": "Pyr.ogg",
+    "consonant-family": "P",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0108.svg",
+    "name": "Ryr",
+    "sound": "Ryr.ogg",
+    "consonant-family": "R",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0109.svg",
+    "name": "Lyr",
+    "sound": "Lyr.ogg",
+    "consonant-family": "L",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0110.svg",
+    "name": "THyr",
+    "sound": "THyr.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0111.svg",
+    "name": "DZyr",
+    "sound": "DZyr.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0112.svg",
+    "name": "Syr",
+    "sound": "Syr.ogg",
+    "consonant-family": "S",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0113.svg",
+    "name": "SHyr",
+    "sound": "SHyr.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0114.svg",
+    "name": "Zyr",
+    "sound": "Zyr.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0115.svg",
+    "name": "Hyr",
+    "sound": "Hyr.ogg",
+    "consonant-family": "H",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0116.svg",
+    "name": "CHyr",
+    "sound": "CHyr.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0117.svg",
+    "name": "STyr",
+    "sound": "STyr.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0118.svg",
+    "name": "SCyr",
+    "sound": "SCyr.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0119.svg",
+    "name": "SZyr",
+    "sound": "SZyr.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "yr",
+    "numeral": "none"
+  },
+  {
+    "filename": "0120.svg",
+    "name": "Xer",
+    "sound": "Xer.ogg",
+    "consonant-family": "X",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0121.svg",
+    "name": "Ter",
+    "sound": "Ter.ogg",
+    "consonant-family": "T",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0122.svg",
+    "name": "Der",
+    "sound": "Der.ogg",
+    "consonant-family": "D",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0123.svg",
+    "name": "Ger",
+    "sound": "Ger.ogg",
+    "consonant-family": "G",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0124.svg",
+    "name": "Ker",
+    "sound": "Ker.ogg",
+    "consonant-family": "K",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0125.svg",
+    "name": "Mer",
+    "sound": "Mer.ogg",
+    "consonant-family": "M",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0126.svg",
+    "name": "Ner",
+    "sound": "Ner.ogg",
+    "consonant-family": "N",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0127.svg",
+    "name": "Fer",
+    "sound": "Fer.ogg",
+    "consonant-family": "F",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0128.svg",
+    "name": "Ber",
+    "sound": "Ber.ogg",
+    "consonant-family": "B",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0129.svg",
+    "name": "Ver",
+    "sound": "Ver.ogg",
+    "consonant-family": "V",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0130.svg",
+    "name": "Per",
+    "sound": "Per.ogg",
+    "consonant-family": "P",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0131.svg",
+    "name": "Rer",
+    "sound": "Rer.ogg",
+    "consonant-family": "R",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0132.svg",
+    "name": "Ler",
+    "sound": "Ler.ogg",
+    "consonant-family": "L",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0133.svg",
+    "name": "THer",
+    "sound": "THer.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0134.svg",
+    "name": "DZer",
+    "sound": "DZer.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0135.svg",
+    "name": "Ser",
+    "sound": "Ser.ogg",
+    "consonant-family": "S",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0136.svg",
+    "name": "SHer",
+    "sound": "SHer.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0137.svg",
+    "name": "Zer",
+    "sound": "Zer.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0138.svg",
+    "name": "Her",
+    "sound": "Her.ogg",
+    "consonant-family": "H",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0139.svg",
+    "name": "CHer",
+    "sound": "CHer.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0140.svg",
+    "name": "STer",
+    "sound": "STer.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0141.svg",
+    "name": "SCer",
+    "sound": "SCer.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0142.svg",
+    "name": "SZer",
+    "sound": "SZer.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "er",
+    "numeral": "none"
+  },
+  {
+    "filename": "0143.svg",
+    "name": "Xeh",
+    "sound": "Xeh.ogg",
+    "consonant-family": "X",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0144.svg",
+    "name": "Teh",
+    "sound": "Teh.ogg",
+    "consonant-family": "T",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0145.svg",
+    "name": "Deh",
+    "sound": "Deh.ogg",
+    "consonant-family": "D",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0146.svg",
+    "name": "Geh",
+    "sound": "Geh.ogg",
+    "consonant-family": "G",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0147.svg",
+    "name": "Keh",
+    "sound": "Keh.ogg",
+    "consonant-family": "K",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0148.svg",
+    "name": "Meh",
+    "sound": "Meh.ogg",
+    "consonant-family": "M",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0149.svg",
+    "name": "Neh",
+    "sound": "Neh.ogg",
+    "consonant-family": "N",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0150.svg",
+    "name": "Feh",
+    "sound": "Feh.ogg",
+    "consonant-family": "F",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0151.svg",
+    "name": "Beh",
+    "sound": "Beh.ogg",
+    "consonant-family": "B",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0152.svg",
+    "name": "Veh",
+    "sound": "Veh.ogg",
+    "consonant-family": "V",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0153.svg",
+    "name": "Peh",
+    "sound": "Peh.ogg",
+    "consonant-family": "P",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0154.svg",
+    "name": "Reh",
+    "sound": "Reh.ogg",
+    "consonant-family": "R",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0155.svg",
+    "name": "Leh",
+    "sound": "Leh.ogg",
+    "consonant-family": "L",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0156.svg",
+    "name": "THeh",
+    "sound": "THeh.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0157.svg",
+    "name": "DZeh",
+    "sound": "DZeh.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0158.svg",
+    "name": "Seh",
+    "sound": "Seh.ogg",
+    "consonant-family": "S",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0159.svg",
+    "name": "SHeh",
+    "sound": "SHeh.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0160.svg",
+    "name": "Zeh",
+    "sound": "Zeh.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0161.svg",
+    "name": "Heh",
+    "sound": "Heh.ogg",
+    "consonant-family": "H",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0162.svg",
+    "name": "CHeh",
+    "sound": "CHeh.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0163.svg",
+    "name": "STeh",
+    "sound": "STeh.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0164.svg",
+    "name": "SCeh",
+    "sound": "SCeh.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0165.svg",
+    "name": "SZeh",
+    "sound": "SZeh.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "eh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0166.svg",
+    "name": "Xei",
+    "sound": "Xei.ogg",
+    "consonant-family": "X",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0167.svg",
+    "name": "Tei",
+    "sound": "Tei.ogg",
+    "consonant-family": "T",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0168.svg",
+    "name": "Dei",
+    "sound": "Dei.ogg",
+    "consonant-family": "D",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0169.svg",
+    "name": "Gei",
+    "sound": "Gei.ogg",
+    "consonant-family": "G",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0170.svg",
+    "name": "Kei",
+    "sound": "Kei.ogg",
+    "consonant-family": "K",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0171.svg",
+    "name": "Mei",
+    "sound": "Mei.ogg",
+    "consonant-family": "M",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0172.svg",
+    "name": "Nei",
+    "sound": "Nei.ogg",
+    "consonant-family": "N",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0173.svg",
+    "name": "Fei",
+    "sound": "Fei.ogg",
+    "consonant-family": "F",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0174.svg",
+    "name": "Bei",
+    "sound": "Bei.ogg",
+    "consonant-family": "B",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0175.svg",
+    "name": "Vei",
+    "sound": "Vei.ogg",
+    "consonant-family": "V",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0176.svg",
+    "name": "Pei",
+    "sound": "Pei.ogg",
+    "consonant-family": "P",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0177.svg",
+    "name": "Rei",
+    "sound": "Rei.ogg",
+    "consonant-family": "R",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0178.svg",
+    "name": "Lei",
+    "sound": "Lei.ogg",
+    "consonant-family": "L",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0179.svg",
+    "name": "THei",
+    "sound": "THei.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0180.svg",
+    "name": "DZei",
+    "sound": "DZei.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0181.svg",
+    "name": "Sei",
+    "sound": "Sei.ogg",
+    "consonant-family": "S",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0182.svg",
+    "name": "SHei",
+    "sound": "SHei.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0183.svg",
+    "name": "Zei",
+    "sound": "Zei.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0184.svg",
+    "name": "Hei",
+    "sound": "Hei.ogg",
+    "consonant-family": "H",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0185.svg",
+    "name": "CHei",
+    "sound": "CHei.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0186.svg",
+    "name": "STei",
+    "sound": "STei.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0187.svg",
+    "name": "SCei",
+    "sound": "SCei.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0188.svg",
+    "name": "SZei",
+    "sound": "SZei.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "ei",
+    "numeral": "none"
+  },
+  {
+    "filename": "0189.svg",
+    "name": "Xii",
+    "sound": "Xii.ogg",
+    "consonant-family": "X",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0190.svg",
+    "name": "Tii",
+    "sound": "Tii.ogg",
+    "consonant-family": "T",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0191.svg",
+    "name": "Dii",
+    "sound": "Dii.ogg",
+    "consonant-family": "D",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0192.svg",
+    "name": "Gii",
+    "sound": "Gii.ogg",
+    "consonant-family": "G",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0193.svg",
+    "name": "Kii",
+    "sound": "Kii.ogg",
+    "consonant-family": "K",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0194.svg",
+    "name": "Mii",
+    "sound": "Mii.ogg",
+    "consonant-family": "M",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0195.svg",
+    "name": "Nii",
+    "sound": "Nii.ogg",
+    "consonant-family": "N",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0196.svg",
+    "name": "Fii",
+    "sound": "Fii.ogg",
+    "consonant-family": "F",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0197.svg",
+    "name": "Bii",
+    "sound": "Bii.ogg",
+    "consonant-family": "B",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0198.svg",
+    "name": "Vii",
+    "sound": "Vii.ogg",
+    "consonant-family": "V",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0199.svg",
+    "name": "Pii",
+    "sound": "Pii.ogg",
+    "consonant-family": "P",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0200.svg",
+    "name": "Rii",
+    "sound": "Rii.ogg",
+    "consonant-family": "R",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0201.svg",
+    "name": "Lii",
+    "sound": "Lii.ogg",
+    "consonant-family": "L",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0202.svg",
+    "name": "THii",
+    "sound": "THii.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0203.svg",
+    "name": "DZii",
+    "sound": "DZii.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0204.svg",
+    "name": "Sii",
+    "sound": "Sii.ogg",
+    "consonant-family": "S",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0205.svg",
+    "name": "SHii",
+    "sound": "SHii.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0206.svg",
+    "name": "Zii",
+    "sound": "Zii.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0207.svg",
+    "name": "Hii",
+    "sound": "Hii.ogg",
+    "consonant-family": "H",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0208.svg",
+    "name": "CHii",
+    "sound": "CHii.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0209.svg",
+    "name": "STii",
+    "sound": "STii.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0210.svg",
+    "name": "SCii",
+    "sound": "SCii.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0211.svg",
+    "name": "SZii",
+    "sound": "SZii.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "ii",
+    "numeral": "none"
+  },
+  {
+    "filename": "0212.svg",
+    "name": "Xoh",
+    "sound": "Xoh.ogg",
+    "consonant-family": "X",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0213.svg",
+    "name": "Toh",
+    "sound": "Toh.ogg",
+    "consonant-family": "T",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0214.svg",
+    "name": "Doh",
+    "sound": "Doh.ogg",
+    "consonant-family": "D",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0215.svg",
+    "name": "Goh",
+    "sound": "Goh.ogg",
+    "consonant-family": "G",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0216.svg",
+    "name": "Koh",
+    "sound": "Koh.ogg",
+    "consonant-family": "K",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0217.svg",
+    "name": "Moh",
+    "sound": "Moh.ogg",
+    "consonant-family": "M",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0218.svg",
+    "name": "Noh",
+    "sound": "Noh.ogg",
+    "consonant-family": "N",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0219.svg",
+    "name": "Foh",
+    "sound": "Foh.ogg",
+    "consonant-family": "F",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0220.svg",
+    "name": "Boh",
+    "sound": "Boh.ogg",
+    "consonant-family": "B",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0221.svg",
+    "name": "Voh",
+    "sound": "Voh.ogg",
+    "consonant-family": "V",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0222.svg",
+    "name": "Poh",
+    "sound": "Poh.ogg",
+    "consonant-family": "P",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0223.svg",
+    "name": "Roh",
+    "sound": "Roh.ogg",
+    "consonant-family": "R",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0224.svg",
+    "name": "Loh",
+    "sound": "Loh.ogg",
+    "consonant-family": "L",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0225.svg",
+    "name": "THoh",
+    "sound": "THoh.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0226.svg",
+    "name": "DZoh",
+    "sound": "DZoh.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0227.svg",
+    "name": "Soh",
+    "sound": "Soh.ogg",
+    "consonant-family": "S",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0228.svg",
+    "name": "SHoh",
+    "sound": "SHoh.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0229.svg",
+    "name": "Zoh",
+    "sound": "Zoh.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0230.svg",
+    "name": "Hoh",
+    "sound": "Hoh.ogg",
+    "consonant-family": "H",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0231.svg",
+    "name": "CHoh",
+    "sound": "CHoh.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0232.svg",
+    "name": "SToh",
+    "sound": "SToh.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0233.svg",
+    "name": "SCoh",
+    "sound": "SCoh.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0234.svg",
+    "name": "SZoh",
+    "sound": "SZoh.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "oh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0235.svg",
+    "name": "Xuu",
+    "sound": "Xuu.ogg",
+    "consonant-family": "X",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0236.svg",
+    "name": "Tuu",
+    "sound": "Tuu.ogg",
+    "consonant-family": "T",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0237.svg",
+    "name": "Duu",
+    "sound": "Duu.ogg",
+    "consonant-family": "D",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0238.svg",
+    "name": "Guu",
+    "sound": "Guu.ogg",
+    "consonant-family": "G",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0239.svg",
+    "name": "Kuu",
+    "sound": "Kuu.ogg",
+    "consonant-family": "K",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0240.svg",
+    "name": "Muu",
+    "sound": "Muu.ogg",
+    "consonant-family": "M",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0241.svg",
+    "name": "Nuu",
+    "sound": "Nuu.ogg",
+    "consonant-family": "N",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0242.svg",
+    "name": "Fuu",
+    "sound": "Fuu.ogg",
+    "consonant-family": "F",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0243.svg",
+    "name": "Buu",
+    "sound": "Buu.ogg",
+    "consonant-family": "B",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0244.svg",
+    "name": "Vuu",
+    "sound": "Vuu.ogg",
+    "consonant-family": "V",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0245.svg",
+    "name": "Puu",
+    "sound": "Puu.ogg",
+    "consonant-family": "P",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0246.svg",
+    "name": "Ruu",
+    "sound": "Ruu.ogg",
+    "consonant-family": "R",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0247.svg",
+    "name": "Luu",
+    "sound": "Luu.ogg",
+    "consonant-family": "L",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0248.svg",
+    "name": "THuu",
+    "sound": "THuu.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0249.svg",
+    "name": "DZuu",
+    "sound": "DZuu.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0250.svg",
+    "name": "Suu",
+    "sound": "Suu.ogg",
+    "consonant-family": "S",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0251.svg",
+    "name": "SHuu",
+    "sound": "SHuu.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0252.svg",
+    "name": "Zuu",
+    "sound": "Zuu.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0253.svg",
+    "name": "Huu",
+    "sound": "Huu.ogg",
+    "consonant-family": "H",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0254.svg",
+    "name": "CHuu",
+    "sound": "CHuu.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0255.svg",
+    "name": "STuu",
+    "sound": "STuu.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0256.svg",
+    "name": "SCuu",
+    "sound": "SCuu.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0257.svg",
+    "name": "SZuu",
+    "sound": "SZuu.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "uu",
+    "numeral": "none"
+  },
+  {
+    "filename": "0258.svg",
+    "name": "Xuh",
+    "sound": "Xuh.ogg",
+    "consonant-family": "X",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0259.svg",
+    "name": "Tuh",
+    "sound": "Tuh.ogg",
+    "consonant-family": "T",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0260.svg",
+    "name": "Duh",
+    "sound": "Duh.ogg",
+    "consonant-family": "D",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0261.svg",
+    "name": "Guh",
+    "sound": "Guh.ogg",
+    "consonant-family": "G",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0262.svg",
+    "name": "Kuh",
+    "sound": "Kuh.ogg",
+    "consonant-family": "K",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0263.svg",
+    "name": "Muh",
+    "sound": "Muh.ogg",
+    "consonant-family": "M",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0264.svg",
+    "name": "Nuh",
+    "sound": "Nuh.ogg",
+    "consonant-family": "N",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0265.svg",
+    "name": "Fuh",
+    "sound": "Fuh.ogg",
+    "consonant-family": "F",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0266.svg",
+    "name": "Buh",
+    "sound": "Buh.ogg",
+    "consonant-family": "B",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0267.svg",
+    "name": "Vuh",
+    "sound": "Vuh.ogg",
+    "consonant-family": "V",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0268.svg",
+    "name": "Puh",
+    "sound": "Puh.ogg",
+    "consonant-family": "P",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0269.svg",
+    "name": "Ruh",
+    "sound": "Ruh.ogg",
+    "consonant-family": "R",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0270.svg",
+    "name": "Luh",
+    "sound": "Luh.ogg",
+    "consonant-family": "L",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0271.svg",
+    "name": "THuh",
+    "sound": "THuh.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0272.svg",
+    "name": "DZuh",
+    "sound": "DZuh.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0273.svg",
+    "name": "Suh",
+    "sound": "Suh.ogg",
+    "consonant-family": "S",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0274.svg",
+    "name": "SHuh",
+    "sound": "SHuh.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0275.svg",
+    "name": "Zuh",
+    "sound": "Zuh.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0276.svg",
+    "name": "Huh",
+    "sound": "Huh.ogg",
+    "consonant-family": "H",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0277.svg",
+    "name": "CHuh",
+    "sound": "CHuh.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0278.svg",
+    "name": "STuh",
+    "sound": "STuh.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0279.svg",
+    "name": "SCuh",
+    "sound": "SCuh.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0280.svg",
+    "name": "SZuh",
+    "sound": "SZuh.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "uh",
+    "numeral": "none"
+  },
+  {
+    "filename": "0281.svg",
+    "name": "Xar",
+    "sound": "Xar.ogg",
+    "consonant-family": "X",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0282.svg",
+    "name": "Tar",
+    "sound": "Tar.ogg",
+    "consonant-family": "T",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0283.svg",
+    "name": "Dar",
+    "sound": "Dar.ogg",
+    "consonant-family": "D",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0284.svg",
+    "name": "Gar",
+    "sound": "Gar.ogg",
+    "consonant-family": "G",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0285.svg",
+    "name": "Kar",
+    "sound": "Kar.ogg",
+    "consonant-family": "K",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0286.svg",
+    "name": "Mar",
+    "sound": "Mar.ogg",
+    "consonant-family": "M",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0287.svg",
+    "name": "Nar",
+    "sound": "Nar.ogg",
+    "consonant-family": "N",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0288.svg",
+    "name": "Far",
+    "sound": "Far.ogg",
+    "consonant-family": "F",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0289.svg",
+    "name": "Bar",
+    "sound": "Bar.ogg",
+    "consonant-family": "B",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0290.svg",
+    "name": "Var",
+    "sound": "Var.ogg",
+    "consonant-family": "V",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0291.svg",
+    "name": "Par",
+    "sound": "Par.ogg",
+    "consonant-family": "P",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0292.svg",
+    "name": "Rar",
+    "sound": "Rar.ogg",
+    "consonant-family": "R",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0293.svg",
+    "name": "Lar",
+    "sound": "Lar.ogg",
+    "consonant-family": "L",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0294.svg",
+    "name": "THar",
+    "sound": "THar.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0295.svg",
+    "name": "DZar",
+    "sound": "DZar.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0296.svg",
+    "name": "Sar",
+    "sound": "Sar.ogg",
+    "consonant-family": "S",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0297.svg",
+    "name": "SHar",
+    "sound": "SHar.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0298.svg",
+    "name": "Zar",
+    "sound": "Zar.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0299.svg",
+    "name": "Har",
+    "sound": "Har.ogg",
+    "consonant-family": "H",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0300.svg",
+    "name": "CHar",
+    "sound": "CHar.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0301.svg",
+    "name": "STar",
+    "sound": "STar.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0302.svg",
+    "name": "SCar",
+    "sound": "SCar.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0303.svg",
+    "name": "SZar",
+    "sound": "SZar.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "ar",
+    "numeral": "none"
+  },
+  {
+    "filename": "0304.svg",
+    "name": "Xaa",
+    "sound": "Xaa.ogg",
+    "consonant-family": "X",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0305.svg",
+    "name": "Taa",
+    "sound": "Taa.ogg",
+    "consonant-family": "T",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0306.svg",
+    "name": "Daa",
+    "sound": "Daa.ogg",
+    "consonant-family": "D",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0307.svg",
+    "name": "Gaa",
+    "sound": "Gaa.ogg",
+    "consonant-family": "G",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0308.svg",
+    "name": "Kaa",
+    "sound": "Kaa.ogg",
+    "consonant-family": "K",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0309.svg",
+    "name": "Maa",
+    "sound": "Maa.ogg",
+    "consonant-family": "M",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0310.svg",
+    "name": "Naa",
+    "sound": "Naa.ogg",
+    "consonant-family": "N",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0311.svg",
+    "name": "Faa",
+    "sound": "Faa.ogg",
+    "consonant-family": "F",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0312.svg",
+    "name": "Baa",
+    "sound": "Baa.ogg",
+    "consonant-family": "B",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0313.svg",
+    "name": "Vaa",
+    "sound": "Vaa.ogg",
+    "consonant-family": "V",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0314.svg",
+    "name": "Paa",
+    "sound": "Paa.ogg",
+    "consonant-family": "P",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0315.svg",
+    "name": "Raa",
+    "sound": "Raa.ogg",
+    "consonant-family": "R",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0316.svg",
+    "name": "Laa",
+    "sound": "Laa.ogg",
+    "consonant-family": "L",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0317.svg",
+    "name": "THaa",
+    "sound": "THaa.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0318.svg",
+    "name": "DZaa",
+    "sound": "DZaa.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0319.svg",
+    "name": "Saa",
+    "sound": "Saa.ogg",
+    "consonant-family": "S",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0320.svg",
+    "name": "SHaa",
+    "sound": "SHaa.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0321.svg",
+    "name": "Zaa",
+    "sound": "Zaa.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0322.svg",
+    "name": "Haa",
+    "sound": "Haa.ogg",
+    "consonant-family": "H",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0323.svg",
+    "name": "CHaa",
+    "sound": "CHaa.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0324.svg",
+    "name": "STaa",
+    "sound": "STaa.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0325.svg",
+    "name": "SCaa",
+    "sound": "SCaa.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0326.svg",
+    "name": "SZaa",
+    "sound": "SZaa.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "aa",
+    "numeral": "none"
+  },
+  {
+    "filename": "0327.svg",
+    "name": "Xih",
+    "sound": "Xih.ogg",
+    "consonant-family": "X",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0328.svg",
+    "name": "Tih",
+    "sound": "Tih.ogg",
+    "consonant-family": "T",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0329.svg",
+    "name": "Dih",
+    "sound": "Dih.ogg",
+    "consonant-family": "D",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0330.svg",
+    "name": "Gih",
+    "sound": "Gih.ogg",
+    "consonant-family": "G",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0331.svg",
+    "name": "Kih",
+    "sound": "Kih.ogg",
+    "consonant-family": "K",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0332.svg",
+    "name": "Mih",
+    "sound": "Mih.ogg",
+    "consonant-family": "M",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0333.svg",
+    "name": "Nih",
+    "sound": "Nih.ogg",
+    "consonant-family": "N",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0334.svg",
+    "name": "Fih",
+    "sound": "Fih.ogg",
+    "consonant-family": "F",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0335.svg",
+    "name": "Bih",
+    "sound": "Bih.ogg",
+    "consonant-family": "B",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0336.svg",
+    "name": "Vih",
+    "sound": "Vih.ogg",
+    "consonant-family": "V",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0337.svg",
+    "name": "Pih",
+    "sound": "Pih.ogg",
+    "consonant-family": "P",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0338.svg",
+    "name": "Rih",
+    "sound": "Rih.ogg",
+    "consonant-family": "R",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0339.svg",
+    "name": "Lih",
+    "sound": "Lih.ogg",
+    "consonant-family": "L",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0340.svg",
+    "name": "THih",
+    "sound": "THih.ogg",
+    "consonant-family": "TH",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0341.svg",
+    "name": "DZih",
+    "sound": "DZih.ogg",
+    "consonant-family": "DZ",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0342.svg",
+    "name": "Sih",
+    "sound": "Sih.ogg",
+    "consonant-family": "S",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0343.svg",
+    "name": "SHih",
+    "sound": "SHih.ogg",
+    "consonant-family": "SH",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0344.svg",
+    "name": "Zih",
+    "sound": "Zih.ogg",
+    "consonant-family": "Z",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0345.svg",
+    "name": "Hih",
+    "sound": "Hih.ogg",
+    "consonant-family": "H",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0346.svg",
+    "name": "CHih",
+    "sound": "CHih.ogg",
+    "consonant-family": "CH",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0347.svg",
+    "name": "STih",
+    "sound": "STih.ogg",
+    "consonant-family": "ST",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0348.svg",
+    "name": "SCih",
+    "sound": "SCih.ogg",
+    "consonant-family": "SC",
+    "vowel-family": "ih",
+    "numeral": "none"
+  },
+  {
+    "filename": "0349.svg",
+    "name": "SZih",
+    "sound": "SZih.ogg",
+    "consonant-family": "SZ",
+    "vowel-family": "ih",
+    "numeral": "none"
+  }
+]
