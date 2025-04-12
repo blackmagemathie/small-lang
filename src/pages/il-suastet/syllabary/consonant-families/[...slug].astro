@@ -1,0 +1,44 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Ariadne from '@/components/Ariadne.astro'
+import Glyph from '@/components/Glyph.astro'
+
+import consonant_families from "./_consonant_families.json"
+export async function getStaticPaths() {
+    return consonant_families.map(cf => ({
+        params: { slug: cf.slug }, props: { cf },
+    }));
+}
+const { cf } = Astro.props;
+
+const ariadne = [
+    { name: "home", url: "/" },
+    { name: "Il'suastet", url: "/il-suastet" },
+    { name: "syllabary", url: "/il-suastet/syllabary" },
+    { name: cf.name }
+]
+---
+
+<Layout tab={cf.name}>
+    <main class="container max-w-3xl px-8 mx-auto">
+
+        <h1>{cf.name}</h1>
+        <Ariadne links={ariadne}/>
+
+        <div class="my-4">
+            <div class="glyph-container rounded-sm">
+                <Glyph src={"/glyph/"+cf.src.img+".svg"} />
+            </div>
+        </div>
+
+    </main>
+</Layout>
+
+<style lang="scss">
+    .glyph-container {
+        max-width: 8rem;
+        padding: 1rem;
+        color: var(--color-paper);
+        background-color: var(--color-ink);
+    }
+</style>
