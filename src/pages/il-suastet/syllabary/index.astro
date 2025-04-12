@@ -1,13 +1,35 @@
 ---
-import Layout from '@/layouts/Layout.astro';
-import Ariadne from '@/components/Ariadne.astro';
-import Glyph from '@/components/Glyph.astro';
+import Layout from '@/layouts/Layout.astro'
+import Ariadne from '@/components/Ariadne.astro'
+import GlyphGrid from '@/components/GlyphGrid.astro'
+import type { TypeGridGlyph } from '@/components/TypeGridGlyph'
 
 const ariadne = [
     { name: "home", url: "/" },
     { name: "Il'suastet", url: "/il-suastet" },
     { name: "syllabary" }
 ]
+
+import vowel_families from "./vowel-families/_vowel_families.json"
+const grid_vowel_families:TypeGridGlyph[] = vowel_families.map(vowel_family => ({
+    url: "/il-suastet/syllabary/vowel-families/"+vowel_family.slug,
+    src: "/glyph/"+vowel_family.src.img+".svg",
+    title: vowel_family.name
+}))
+
+import consonant_families from "./consonant-families/_consonant_families.json"
+const grid_consonant_families:TypeGridGlyph[] = consonant_families.map(consonant_family => ({
+    url: "/il-suastet/syllabary/consonant-families/"+consonant_family.slug,
+    src: "/glyph/"+consonant_family.src.img+".svg",
+    title: consonant_family.name
+}))
+
+import compounds from "./compounds/_compounds.json"
+const grid_compounds:TypeGridGlyph[] = compounds.map(grid_compound => ({
+    url: "/il-suastet/syllabary/compounds/"+grid_compound.slug,
+    src: "/glyph/"+grid_compound.src.img+".svg",
+    title: grid_compound.name
+}))
 ---
 
 <Layout tab="syllabary < Il'suastet">
@@ -16,6 +38,28 @@ const ariadne = [
         <h1>syllabary</h1>
         <Ariadne links={ariadne}/>
 
+        <!-- consonants -->
+        <h2>consonant families</h2>
+        <hr class="border-stone border-1 mb-4">
+        <GlyphGrid glyphs={grid_consonant_families} />
+
+        <!-- vowels -->
+        <h2>vowel families</h2>
+        <hr class="border-stone border-1 mb-4">
+        <GlyphGrid glyphs={grid_vowel_families} />
+
+        <!-- compounds -->
+        <h2>all compounds</h2>
+        <hr class="border-stone border-1 mb-4">
+        <GlyphGrid glyphs={grid_compounds} />
+
 
     </main>
 </Layout>
+
+<style>
+    h2 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+</style>

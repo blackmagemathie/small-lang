@@ -1,0 +1,29 @@
+[
+    {
+        "slug": "ham",
+        "name": "Ham",
+        "ipa": "a",
+        "src": {
+            "img": "dummy1",
+            "sound": "ham"
+        }
+    },
+    {
+        "slug": "hum",
+        "name": "Hum",
+        "ipa": "u",
+        "src": {
+            "img": "dummy1",
+            "sound": "hum"
+        }
+    },
+    {
+        "slug": "hom",
+        "name": "Hom",
+        "ipa": "ɵ",
+        "src": {
+            "img": "dummy1",
+            "sound": "hom"
+        }
+    }
+]

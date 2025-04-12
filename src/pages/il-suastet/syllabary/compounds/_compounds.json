@@ -1,0 +1,15 @@
+[
+    {
+        "slug": "bu",
+        "name": "Bu",
+        "ipa": "bu",
+        "src": {
+            "img": "dummy3",
+            "sound": "cmpd_bu"
+        },
+        "using": {
+            "consonant_family": "baba",
+            "vowel_family": "hum"
+        }
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "slug": "baba",
+        "name": "Baba",
+        "ipa": "b",
+        "src": {
+            "img": "dummy2",
+            "sound": "baba"
+        }
+    },
+    {
+        "slug": "keke",
+        "name": "Keke",
+        "ipa": "k",
+        "src": {
+            "img": "dummy2",
+            "sound": "keke"
+        }
+    },
+    {
+        "slug": "jiji",
+        "name": "Jiji",
+        "ipa": "ʒ",
+        "src": {
+            "img": "dummy2",
+            "sound": "jiji"
+        }
+    }
+]

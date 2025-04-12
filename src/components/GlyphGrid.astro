@@ -1,0 +1,43 @@
+---
+import Glyph from '@/components/Glyph.astro';
+import type { TypeGridGlyph } from "./TypeGridGlyph";
+
+export interface Props {
+    glyphs: TypeGridGlyph[]
+}
+
+const { glyphs } = Astro.props as Props
+---
+
+<div class="max-w-4xl my-8 grid grid-cols-6 gap-4">
+    {glyphs.map(glyph => (
+        <div>
+            <div class="grid-item bg-paper border-2 center mx-auto aspect-square rounded-sm">
+                <a href={glyph.url} class="block h-full w-full">
+                    <div class="flex h-full">
+                        <div class="glyph-container m-auto" title={glyph.title}>
+                            <Glyph src={glyph.src} />
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    ))}
+</div>
+
+<style lang="scss">
+
+    .grid-item {
+        color: var(--color-ink);
+        border-color: var(--color-gem);
+        &:hover {
+            background-color: var(--color-gem);
+            color: var(--color-paper);
+        }
+    }
+    .glyph-container {
+        width: 60%;
+        height: 60%;
+    }
+
+</style>
