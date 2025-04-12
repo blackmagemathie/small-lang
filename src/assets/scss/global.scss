@@ -15,3 +15,9 @@ a:not([class]):not(:has(img)) {
 .font-display {
     font-family: var(--font-heading);
 }
+
+h1:not([class]) {
+    font-weight: bold;
+    font-family: var(--font-heading);
+    font-size: 4rem;
+}

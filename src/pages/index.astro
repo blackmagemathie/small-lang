@@ -1,64 +1,30 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-
-const families = [
-    {
-        name: "Basheste",
-        slug: "basheste",
-        links: [
-            {
-                name: "alphabet",
-                slug: "alphabet"
-            },
-            {
-                name: "logograms",
-                slug: "logograms"
-            },
-            {
-                name: "logogram radicals",
-                slug: "logograms/radicals"
-            }
-        ]
-    },
-    {
-        name: "Il'suastet",
-        slug: "il-suastet",
-        links: [
-            {
-                name: "syllabary",
-                slug: "syllabary"
-            },
-        ]
-    }
-]
 ---
 
 <Layout tab="Luscept languages">
     <main class="container max-w-3xl px-8 mx-auto">
-        <h1 class="text-6xl font-bold mb-4">Luscept languages</h1>
+        
+        <h1>Luscept languages</h1>
 
         <p class="my-4 italic">
             contents by <a href="https://github.com/descenacre">descenacre</a><br/>
             website code by <a href="https://mathie.gay/">mathie</a>
         </p>
 
-        <p>Welcome to <span class="font-bold">Luscept.</span>, a world where logic, dreams, and calamity cascade into one another.</p>
-        <p>Or rather, a dance of matter, spirit, and crystal.</p>
+        <p class="my-4">Welcome to <em>Luscept</em>; a world where logic, dreams, and calamity cascade into one another. Or rather, a dance of matter, spirit, and crystal.</p>
         
-        <div class="mt-8">
-            {families.map(family => (
-                <div class="my-4 family">
-                    <p class="font-display text-2xl font-bold">{family.name}</p>
-                    <ul class="list-disc">
-                        {family.links.map(link =>(
-                            <li class="ml-4">
-                                <a href={"/"+family.slug+"/"+link.slug}>{link.name}</a>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            ))}
-        </div>
+        <p>
+            <ul class="list-disc">
+                <li class="ml-4">
+                    <a href="/basheste">Basheste</a>
+                </li>
+                <li class="ml-4">
+                    <a href="/il-suastet">Il'suastet</a>
+                </li>
+            </ul>
+        </p>
+
     </main>
 </Layout>
 

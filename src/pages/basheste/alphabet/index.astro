@@ -4,17 +4,9 @@ import Ariadne from '@/components/Ariadne.astro';
 import Glyph from '@/components/Glyph.astro';
 
 const ariadne = [
-    {
-        name: "home",
-        url: "/"
-    },
-    {
-        name: "Basheste",
-        url: "/basheste"
-    },
-    {
-        name: "alphabet"
-    }
+    { name: "home", url: "/" },
+    { name: "Basheste", url: "/basheste" },
+    { name: "alphabet" }
 ]
 
 const alphabet = [
@@ -36,9 +28,9 @@ const alphabet = [
 ]
 ---
 
-<Layout tab="alphabet (Basheste)">
+<Layout tab="alphabet < Basheste">
     <main class="container max-w-3xl px-8 mx-auto">
-        <h1 class="text-6xl font-bold mb-4">alphabet (Basheste)</h1>
+        <h1>alphabet</h1>
         <Ariadne links={ariadne}/>
 
         <div class="max-w-4xl mt-8 grid grid-cols-6 gap-4">

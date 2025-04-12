@@ -1,0 +1,21 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Ariadne from '@/components/Ariadne.astro';
+import Glyph from '@/components/Glyph.astro';
+
+const ariadne = [
+    { name: "home", url: "/" },
+    { name: "Il'suastet", url: "/il-suastet" },
+    { name: "syllabary" }
+]
+---
+
+<Layout tab="syllabary < Il'suastet">
+    <main class="container max-w-3xl px-8 mx-auto">
+
+        <h1>syllabary</h1>
+        <Ariadne links={ariadne}/>
+
+
+    </main>
+</Layout>
