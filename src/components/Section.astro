@@ -1,0 +1,17 @@
+---
+interface Props {
+    id?: string
+}
+
+const { id=undefined } = Astro.props;
+---
+
+<h2 id={id}><slot/></h2>
+<hr class="border-stone border-1 mb-4">
+
+<style>
+    h2 {
+        font-weight: bold;
+        font-size: 1.75rem;
+    }
+</style>
