@@ -31,8 +31,6 @@ export interface Lang2Numeral {
     number: number
     name: string
     ipa: string
-    src: {
-        img: string
-        sound?: string
-    }
+    img: string
+    sound?: string
 }
