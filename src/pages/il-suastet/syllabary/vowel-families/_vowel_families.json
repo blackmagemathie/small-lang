@@ -3,6 +3,7 @@
         "slug": "ham",
         "name": "Ham",
         "ipa": "a",
+        "roman": "A",
         "src": {
             "img": "dummy1",
             "sound": "ham"
@@ -12,6 +13,7 @@
         "slug": "hum",
         "name": "Hum",
         "ipa": "u",
+        "roman": "A",
         "src": {
             "img": "dummy1",
             "sound": "hum"
@@ -21,6 +23,7 @@
         "slug": "hom",
         "name": "Hom",
         "ipa": "ɵ",
+        "roman": "O",
         "src": {
             "img": "dummy1",
             "sound": "hom"

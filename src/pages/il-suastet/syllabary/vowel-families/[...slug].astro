@@ -5,34 +5,34 @@ import Glyph from "@/components/Glyph.astro"
 import Section from "@/components/Section.astro"
 import GlyphGrid from "@/components/GlyphGrid.astro"
 import type { TypeGridGlyph } from "@/components/TypeGridGlyph"
-import type { Lang2Consonant, Lang2Compound } from "@/types/Lang2"
+import type { Lang2Vowel, Lang2Compound } from "@/types/Lang2"
 import { Lang2Object_to_GridGlyph } from "@/types/Lang2"
 
-import consonant_families from "./_consonant_families.json"
+import vowel_families from "./_vowel_families.json"
 export async function getStaticPaths() {
-    return consonant_families.map((cf:Lang2Consonant) => ({
-        params: { slug: cf.slug }, props: { cf },
+    return vowel_families.map((vf:Lang2Vowel) => ({
+        params: { slug: vf.slug }, props: { vf },
     }));
 }
-const { cf } = Astro.props;
+const { vf } = Astro.props;
 
 const ariadne = [
     { name: "home", url: "/" },
     { name: "Il'suastet", url: "/il-suastet" },
     { name: "syllabary", url: "/il-suastet/syllabary" },
-    { name: cf.name }
+    { name: vf.name }
 ]
 
 import compounds from "../compounds/_compounds.json"
-const valid_compounds = compounds.filter((compound:Lang2Compound) => compound.parent.consonant===cf.slug)
+const valid_compounds = compounds.filter((compound:Lang2Compound) => compound.parent.vowel===vf.slug)
 const grid_compounds:TypeGridGlyph[] = valid_compounds.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/compounds/")))
 ---
 
-<Layout tab={cf.name}>
+<Layout tab={vf.name}>
     <main class="container max-w-xl px-8 mx-auto">
 
-        <h1>{cf.name}</h1>
-        <div class="font-heading -mt-4 mb-2 text-3xl italic">consonant family</div>
+        <h1>{vf.name}</h1>
+        <div class="font-heading -mt-4 mb-2 text-3xl italic">vowel family</div>
         <Ariadne links={ariadne}/>
 
         <div class="my-4">
@@ -40,15 +40,15 @@ const grid_compounds:TypeGridGlyph[] = valid_compounds.map((o) => (Lang2Object_t
                 <div>
                     <div class="glyph-container min-w-32 rounded-sm aspect-square h-full flex">
                         <div class="sub block m-auto">
-                            <Glyph src={cf.src.img} lang="lang2" />
+                            <Glyph src={vf.src.img} lang="lang2" />
                         </div>
                     </div>
                 </div>
                 <div>
                     <div>IPA consonant</div>
-                    <div class="text-4xl">[ {cf.ipa} ]</div>
+                    <div class="text-4xl">[ {vf.ipa} ]</div>
                     <div>romanization</div>
-                    <div class="text-4xl">{cf.roman}</div>
+                    <div class="text-4xl">{vf.roman}</div>
                 </div>
             </div>
         </div>
