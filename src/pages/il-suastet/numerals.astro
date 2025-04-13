@@ -1,8 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro'
 import Ariadne from '@/components/Ariadne.astro'
-import GlyphGrid from '@/components/GlyphGrid.astro'
-import type { TypeGridGlyph } from '@/components/TypeGridGlyph'
+import GlyphBlock from '@/components/GlyphBlock.astro'
 
 const ariadne = [
     { name: "home", url: "/" },
@@ -11,7 +10,7 @@ const ariadne = [
 ]
 
 import numerals from "./_numerals.json"
-const grid_numerals:TypeGridGlyph[] = []
+const numeralsSorted = numerals.sort((a,b) => a.number - b.number)
 ---
 
 <Layout tab="syllabary < Il'suastet">
@@ -24,11 +23,34 @@ const grid_numerals:TypeGridGlyph[] = []
             The Il'suastet number system is duodecimal (also called dozenal, or base-12).
         </p>
 
-        <div>
-            <ul>
-                
-            </ul>
-        </div>
+        <table class="border-separate -ml-6 border-spacing-x-6 border-spacing-y-4 text-left">
+            <thead>
+                <tr>
+                    <th>glyph</th>
+                    <th>number</th>
+                    <th>name</th>
+                    <th>IPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                {numeralsSorted.map(numeral => (
+                    <tr>
+                        <td>
+                            <div class="w-16">
+                                <GlyphBlock
+                                    name={numeral.name}
+                                    img={numeral.img}
+                                    lang="lang2"
+                                />
+                            </div>
+                        </td>
+                        <td class="text-3xl">{numeral.number}</td>
+                        <td>{numeral.name}</td>
+                        <td>[ {numeral.ipa} ]</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
 
     </main>
 </Layout>
