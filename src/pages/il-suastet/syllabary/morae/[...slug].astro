@@ -1,7 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import Ariadne from "@/components/Ariadne.astro"
-import Glyph from "@/components/Glyph.astro"
+import GlyphBlock from "@/components/GlyphBlock.astro"
 import type { Lang2Mora } from "@/types/Lang2"
 import Section from "@/components/Section.astro"
 
@@ -37,28 +37,28 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
         <div class="my-4">
             <div class="flex flex-row justify-center gap-8 items-center">
 
-                <div>
-                    <div class="glyph-container min-w-32 rounded-sm aspect-square h-full flex">
-                        <div class="sub block m-auto">
-                            <Glyph src={mora.src.img} lang="lang2" />
-                        </div>
-                    </div>
+                <div class="min-w-32">
+                    <GlyphBlock glyph={{src:mora.src.img,lang:"lang2"}} />
                 </div>
 
                 <div class="text-4xl">=</div>
 
                 {parent_consonant && parent_vowel && (
                     <div class="grow flex flex-row gap-2 items-center">
-                        <div class="glyph-container min-w-16 rounded-sm aspect-square h-full flex">
+                        <div class="min-w-16">
                             <div class="sub block m-auto">
-                                <Glyph src={parent_consonant.src.img} lang="lang2" />
+                                <GlyphBlock
+                                    glyph={{src:parent_consonant.src.img,lang:"lang2"}}
+                                    url={"/il-suastet/syllabary/consonants/"+parent_consonant.slug}
+                                />
                             </div>
                         </div>
-                        <div class="text-2xl">+</div>
-                        <div class="glyph-container min-w-16 rounded-sm aspect-square h-full flex">
-                            <div class="sub block m-auto">
-                                <Glyph src={parent_vowel.src.img} lang="lang2" />
-                            </div>
+                        <div class="text-4xl">+</div>
+                        <div class="min-w-16">
+                                <GlyphBlock
+                                    glyph={{src:parent_vowel.src.img,lang:"lang2"}}
+                                    url={"/il-suastet/syllabary/vowels/"+parent_vowel.slug}
+                                />
                         </div>
                     </div>
                 )}
@@ -71,13 +71,3 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
 
     </main>
 </Layout>
-
-<style lang="scss">
-    .glyph-container {
-        background-color: color-mix(in srgb, var(--color-paper), var(--color-stone) 50%);
-        .sub {
-            width: 60%;
-            height: 60%;
-        }
-    }
-</style>
