@@ -1,17 +1,27 @@
 ---
 import GlyphBlock from '@/components/GlyphBlock.astro'
-import type { TypeGridGlyph } from "./TypeGridGlyph"
 
 export interface Props {
-    glyphs: TypeGridGlyph[]
+    items: any[]
     lang: string
+    urlRoot?: string
 }
+const { items=[], lang, urlRoot } = Astro.props as Props
 
-const { glyphs=[], lang } = Astro.props as Props
+export interface Gridable {
+    name: string
+    img: string
+    slug?: string
+}
 ---
 
 <div class="max-w-4xl my-8 grid grid-cols-6 gap-4">
-    {glyphs.map(glyph => (
-        <GlyphBlock glyph={{lang:lang,src:glyph.src}} url={glyph.url} />
+    {(items as Gridable[]).map((item) => (
+        <GlyphBlock
+            name={item.name}
+            img={item.img}
+            lang={lang}
+            url={(urlRoot&&item.slug)?urlRoot+item.slug:undefined}
+        />
     ))}
 </div>

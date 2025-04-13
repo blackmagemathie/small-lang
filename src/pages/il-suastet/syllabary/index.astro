@@ -3,8 +3,6 @@ import Layout from '@/layouts/Layout.astro'
 import Ariadne from '@/components/Ariadne.astro'
 import GlyphGrid from '@/components/GlyphGrid.astro'
 import Section from '@/components/Section.astro'
-import type { TypeGridGlyph } from '@/components/TypeGridGlyph'
-import { Lang2Object_to_GridGlyph } from "@/types/Lang2"
 
 const ariadne = [
     { name: "home", url: "/" },
@@ -13,32 +11,39 @@ const ariadne = [
 ]
 
 import vowels from "./vowels/_vowels.json"
-const grid_vowels:TypeGridGlyph[] = vowels.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/vowels/")))
-
 import consonants from "./consonants/_consonants.json"
-const grid_consonants:TypeGridGlyph[] = consonants.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/consonants/")))
-
 import morae from "./morae/_morae.json"
-const grid_morae:TypeGridGlyph[] = morae.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
 ---
 
-<Layout tab="syllabary < Il'suastet">
+<Layout tab="numerals < Il'suastet">
     <main class="container max-w-3xl px-8 mx-auto">
 
         <h1>syllabary</h1>
         <Ariadne links={ariadne}/>
 
         <!-- consonants -->
-        <Section>consonants ({grid_consonants.length})</Section>
-        <GlyphGrid glyphs={grid_consonants} lang="lang2" />
+        <Section>consonants ({consonants.length})</Section>
+        <GlyphGrid
+            items={consonants}
+            lang="lang2"
+            urlRoot="/il-suastet/syllabary/consonants/"
+        />
 
         <!-- vowels -->
-        <Section>vowels ({grid_vowels.length})</Section>
-        <GlyphGrid glyphs={grid_vowels} lang="lang2" />
+        <Section>vowels ({vowels.length})</Section>
+        <GlyphGrid
+            items={vowels}
+            lang="lang2"
+            urlRoot="/il-suastet/syllabary/vowels/"
+        />
 
         <!-- compounds -->
-        <Section>morae ({grid_morae.length})</Section>
-        <GlyphGrid glyphs={grid_morae} lang="lang2" />
+        <Section>morae ({morae.length})</Section>
+        <GlyphGrid
+            items={morae}
+            lang="lang2"
+            urlRoot="/il-suastet/syllabary/morae/"
+        />
 
 
     </main>

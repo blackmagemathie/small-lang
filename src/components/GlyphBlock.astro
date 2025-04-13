@@ -2,35 +2,33 @@
 import Glyph from '@/components/Glyph.astro'
 
 export interface Props {
-    glyph: {
-        src: string
-        lang: string
-    }
+    name: string
+    img: string
+    lang: string
     url?: string
 }
-const { glyph, url } = Astro.props as Props
+const { name, img, lang, url } = Astro.props as Props
 ---
 
-<div class="glyph-block aspect-square rounded-sm">
+<div class="glyph-block aspect-square rounded-sm" title={name}>
     {url ? (
         <a href={url} class="block h-full w-full">
             <div class="grid h-full">
                 <div class="sub m-auto">
-                    <Glyph lang={glyph.lang} src={glyph.src} />
+                    <Glyph lang={lang} img={img} />
                 </div>
             </div>
         </a>
     ):(
         <div class="grid h-full w-full">
             <div class="sub m-auto">
-                <Glyph lang={glyph.lang} src={glyph.src} />
+                <Glyph lang={lang} img={img} />
             </div>
         </div>
     )}
 </div>
 
 <style lang="scss">
-
     .glyph-block {
         color: var(--color-ink);
         background-color: color-mix(in srgb, var(--color-paper), var(--color-stone) 50%);
@@ -46,5 +44,4 @@ const { glyph, url } = Astro.props as Props
         width: 60%;
         height: 60%;
     }
-
 </style>

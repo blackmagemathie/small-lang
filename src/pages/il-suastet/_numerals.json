@@ -1,0 +1,23 @@
+[
+    {
+        "number": 1,
+        "name": "One",
+        "ipa": "wan",
+        "img": "dummy3",
+        "sound": "baba"
+    },
+    {
+        "number": 2,
+        "name": "Two",
+        "ipa": "tuw",
+        "img": "dummy3",
+        "sound": "baba"
+    },
+    {
+        "number": 11,
+        "name": "Eleven",
+        "ipa": "ileven",
+        "img": "dummy3",
+        "sound": "baba"
+    }
+]

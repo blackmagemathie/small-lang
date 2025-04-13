@@ -1,0 +1,34 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import Ariadne from '@/components/Ariadne.astro'
+import GlyphGrid from '@/components/GlyphGrid.astro'
+import type { TypeGridGlyph } from '@/components/TypeGridGlyph'
+
+const ariadne = [
+    { name: "home", url: "/" },
+    { name: "Il'suastet", url: "/il-suastet" },
+    { name: "numerals" }
+]
+
+import numerals from "./_numerals.json"
+const grid_numerals:TypeGridGlyph[] = []
+---
+
+<Layout tab="syllabary < Il'suastet">
+    <main class="container max-w-3xl px-8 mx-auto">
+
+        <h1>numerals</h1>
+        <Ariadne links={ariadne}/>
+
+        <p class="my-4">
+            The Il'suastet number system is duodecimal (also called dozenal, or base-12).
+        </p>
+
+        <div>
+            <ul>
+                
+            </ul>
+        </div>
+
+    </main>
+</Layout>

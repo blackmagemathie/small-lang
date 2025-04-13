@@ -4,29 +4,23 @@
         "name": "Baba",
         "ipa": "b",
         "roman": "B",
-        "src": {
-            "img": "dummy2",
-            "sound": "baba"
-        }
+        "img": "dummy2",
+        "sound": "baba"
     },
     {
         "slug": "keke",
         "name": "Keke",
         "ipa": "k",
         "roman": "K",
-        "src": {
-            "img": "dummy2",
-            "sound": "keke"
-        }
+        "img": "dummy2",
+        "sound": "keke"
     },
     {
         "slug": "jiji",
         "name": "Jiji",
         "ipa": "ʒ",
         "roman": "J",
-        "src": {
-            "img": "dummy2",
-            "sound": "jiji"
-        }
+        "img": "dummy2",
+        "sound": "jiji"
     }
 ]

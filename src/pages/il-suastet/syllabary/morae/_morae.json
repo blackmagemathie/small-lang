@@ -2,10 +2,8 @@
     {
         "slug": "bu",
         "name": "Bu",
-        "src": {
-            "img": "dummy3",
-            "sound": "cmpd_bu"
-        },
+        "img": "dummy3",
+        "sound": "cmpd_bu",
         "parent": {
             "consonant": "baba",
             "vowel": "hum"
@@ -14,10 +12,8 @@
     {
         "slug": "bo",
         "name": "Bo",
-        "src": {
-            "img": "dummy3",
-            "sound": "cmpd_bo"
-        },
+        "img": "dummy3",
+        "sound": "cmpd_bo",
         "parent": {
             "consonant": "baba",
             "vowel": "hom"
@@ -26,10 +22,8 @@
     {
         "slug": "ka",
         "name": "Ka",
-        "src": {
-            "img": "dummy3",
-            "sound": "cmpd_ka"
-        },
+        "img": "dummy3",
+        "sound": "cmpd_ka",
         "parent": {
             "consonant": "keke",
             "vowel": "ham"

@@ -38,7 +38,11 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
             <div class="flex flex-row justify-center gap-8 items-center">
 
                 <div class="min-w-32">
-                    <GlyphBlock glyph={{src:mora.src.img,lang:"lang2"}} />
+                    <GlyphBlock
+                        name={mora.name}
+                        img={mora.img}
+                        lang="lang2"
+                    />
                 </div>
 
                 <div class="text-4xl">=</div>
@@ -48,7 +52,9 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
                         <div class="min-w-16">
                             <div class="sub block m-auto">
                                 <GlyphBlock
-                                    glyph={{src:parent_consonant.src.img,lang:"lang2"}}
+                                    name={parent_consonant.name}
+                                    img={parent_consonant.img}
+                                    lang="lang2"
                                     url={"/il-suastet/syllabary/consonants/"+parent_consonant.slug}
                                 />
                             </div>
@@ -56,8 +62,10 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
                         <div class="text-4xl">+</div>
                         <div class="min-w-16">
                                 <GlyphBlock
-                                    glyph={{src:parent_vowel.src.img,lang:"lang2"}}
-                                    url={"/il-suastet/syllabary/vowels/"+parent_vowel.slug}
+                                    name={parent_vowel.name}
+                                    img={parent_vowel.img}
+                                    lang="lang2"
+                                    url={"/il-suastet/syllabary/consonants/"+parent_vowel.slug}
                                 />
                         </div>
                     </div>

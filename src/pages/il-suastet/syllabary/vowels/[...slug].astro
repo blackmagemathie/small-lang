@@ -4,9 +4,7 @@ import Ariadne from "@/components/Ariadne.astro"
 import GlyphBlock from "@/components/GlyphBlock.astro"
 import Section from "@/components/Section.astro"
 import GlyphGrid from "@/components/GlyphGrid.astro"
-import type { TypeGridGlyph } from "@/components/TypeGridGlyph"
 import type { Lang2Vowel, Lang2Mora } from "@/types/Lang2"
-import { Lang2Object_to_GridGlyph } from "@/types/Lang2"
 
 import vowels from "./_vowels.json"
 export async function getStaticPaths() {
@@ -24,7 +22,7 @@ const ariadne = [
 ]
 
 import morae from "../morae/_morae.json"
-const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (mora.parent.vowel===vowel.slug)).map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
+const moraeFiltered = morae.filter((mora:Lang2Mora) => (mora.parent.vowel===vowel.slug))
 ---
 
 <Layout tab={vowel.name}>
@@ -37,7 +35,11 @@ const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (mora.parent
         <div class="my-4">
             <div class="flex flex-row gap-8 items-center">
                 <div class="min-w-32">
-                    <GlyphBlock glyph={{src:vowel.src.img,lang:"lang2"}} />
+                    <GlyphBlock
+                        name={vowel.name}
+                        img={vowel.img}
+                        lang="lang2"
+                    />
                 </div>
                 <div>
                     <div>IPA</div>
@@ -48,9 +50,13 @@ const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (mora.parent
             </div>
         </div>
         
-        {grid_morae.length>0 && (
-            <Section>related morae ({grid_morae.length})</Section>
-            <GlyphGrid glyphs={grid_morae} lang="lang2" />
+        {moraeFiltered.length>0 && (
+            <Section>related morae ({moraeFiltered.length})</Section>
+            <GlyphGrid
+                items={moraeFiltered}
+                lang="lang2"
+                urlRoot="/il-suastet/syllabary/morae/"
+            />
         )}
 
         <Section>related words</Section>

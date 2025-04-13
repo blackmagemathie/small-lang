@@ -1,11 +1,11 @@
 ---
 export interface Props {
-    src: string
+    img: string
     lang: string
 }
-const { src, lang } = Astro.props as Props
+const { img, lang } = Astro.props as Props
 
-const importedSvg = await import(`../assets/lang/${lang}/glyphs/${src}.svg?raw`)
+const importedSvg = await import(`../assets/lang/${lang}/glyphs/${img}.svg?raw`)
 const svgContent = importedSvg.default
 ---
 
