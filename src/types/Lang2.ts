@@ -32,10 +32,6 @@ export interface Lang2Mora {
     parent: {
         consonant: string
         vowel: string
-    }|{
-        consonant: string
-    }|{
-        vowel: string
     }
 }
 

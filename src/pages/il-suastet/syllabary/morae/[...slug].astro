@@ -21,9 +21,9 @@ const ariadne = [
 ]
 
 import consonants from "../consonants/_consonants.json"
-const parent_consonant = consonants.find((consonant) => (("consonant" in mora.parent) && consonant.slug===mora.parent.consonant))
+const parent_consonant = consonants.find((consonant) => (consonant.slug===mora.parent.consonant))
 import vowels from "../vowels/_vowels.json"
-const parent_vowel = vowels.find((vowel) => (("vowel" in mora.parent) && vowel.slug===mora.parent.vowel))
+const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
 
 ---
 

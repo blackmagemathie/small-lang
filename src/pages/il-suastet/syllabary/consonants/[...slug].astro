@@ -24,7 +24,7 @@ const ariadne = [
 ]
 
 import morae from "../morae/_morae.json"
-const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (("consonant" in mora.parent) && mora.parent.consonant===consonant.slug)).map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
+const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (mora.parent.consonant===consonant.slug)).map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
 ---
 
 <Layout tab={consonant.name}>
