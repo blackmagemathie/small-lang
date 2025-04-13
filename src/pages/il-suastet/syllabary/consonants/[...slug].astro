@@ -53,9 +53,12 @@ const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (mora.parent
         </div>
         
         {grid_morae.length>0 && (
-            <Section>morae using this vowel ({grid_morae.length})</Section>
+            <Section>related morae ({grid_morae.length})</Section>
             <GlyphGrid glyphs={grid_morae} lang="lang2" />
         )}
+
+        <Section>related words</Section>
+        <p class="text-omen">(section pending)</p>
 
     </main>
 </Layout>
