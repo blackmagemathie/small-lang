@@ -5,34 +5,33 @@ import Glyph from "@/components/Glyph.astro"
 import Section from "@/components/Section.astro"
 import GlyphGrid from "@/components/GlyphGrid.astro"
 import type { TypeGridGlyph } from "@/components/TypeGridGlyph"
-import type { Lang2Consonant, Lang2Compound } from "@/types/Lang2"
+import type { Lang2Consonant, Lang2Mora } from "@/types/Lang2"
 import { Lang2Object_to_GridGlyph } from "@/types/Lang2"
 
-import consonant_families from "./_consonant_families.json"
+import consonants from "./_consonants.json"
 export async function getStaticPaths() {
-    return consonant_families.map((cf:Lang2Consonant) => ({
-        params: { slug: cf.slug }, props: { cf },
+    return consonants.map((consonant:Lang2Consonant) => ({
+        params: { slug: consonant.slug }, props: { consonant },
     }));
 }
-const { cf } = Astro.props;
+const { consonant } = Astro.props;
 
 const ariadne = [
     { name: "home", url: "/" },
     { name: "Il'suastet", url: "/il-suastet" },
     { name: "syllabary", url: "/il-suastet/syllabary" },
-    { name: cf.name }
+    { name: consonant.name }
 ]
 
-import compounds from "../compounds/_compounds.json"
-const valid_compounds = compounds.filter((compound:Lang2Compound) => compound.parent.consonant===cf.slug)
-const grid_compounds:TypeGridGlyph[] = valid_compounds.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/compounds/")))
+import morae from "../morae/_morae.json"
+const grid_morae:TypeGridGlyph[] = morae.filter((mora:Lang2Mora) => (("consonant" in mora.parent) && mora.parent.consonant===consonant.slug)).map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
 ---
 
-<Layout tab={cf.name}>
+<Layout tab={consonant.name}>
     <main class="container max-w-xl px-8 mx-auto">
 
-        <h1>{cf.name}</h1>
-        <div class="font-heading -mt-4 mb-2 text-3xl italic">consonant family</div>
+        <h1>{consonant.name}</h1>
+        <div class="font-heading -mt-4 mb-2 text-3xl italic">consonant</div>
         <Ariadne links={ariadne}/>
 
         <div class="my-4">
@@ -40,22 +39,22 @@ const grid_compounds:TypeGridGlyph[] = valid_compounds.map((o) => (Lang2Object_t
                 <div>
                     <div class="glyph-container min-w-32 rounded-sm aspect-square h-full flex">
                         <div class="sub block m-auto">
-                            <Glyph src={cf.src.img} lang="lang2" />
+                            <Glyph src={consonant.src.img} lang="lang2" />
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div>IPA consonant</div>
-                    <div class="text-4xl">[ {cf.ipa} ]</div>
+                    <div>IPA</div>
+                    <div class="text-4xl">[ {consonant.ipa} ]</div>
                     <div>romanization</div>
-                    <div class="text-4xl">{cf.roman}</div>
+                    <div class="text-4xl">{consonant.roman}</div>
                 </div>
             </div>
         </div>
         
-        {grid_compounds.length>0 && (
-            <Section>child compounds</Section>
-            <GlyphGrid glyphs={grid_compounds} lang="lang2" />
+        {grid_morae.length>0 && (
+            <Section>morae using this vowel ({grid_morae.length})</Section>
+            <GlyphGrid glyphs={grid_morae} lang="lang2" />
         )}
 
     </main>

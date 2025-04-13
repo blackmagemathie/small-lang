@@ -22,7 +22,7 @@ export interface Lang2Consonant {
     }
 }
 
-export interface Lang2Compound {
+export interface Lang2Mora {
     slug: string
     name: string
     src: {
@@ -32,11 +32,15 @@ export interface Lang2Compound {
     parent: {
         consonant: string
         vowel: string
+    }|{
+        consonant: string
+    }|{
+        vowel: string
     }
 }
 
 export function Lang2Object_to_GridGlyph(
-    o:Lang2Vowel|Lang2Consonant|Lang2Compound,
+    o:Lang2Vowel|Lang2Consonant|Lang2Mora,
     urlRoot: string
 ):TypeGridGlyph {
     return {

@@ -12,14 +12,14 @@ const ariadne = [
     { name: "syllabary" }
 ]
 
-import vowel_families from "./vowel-families/_vowel_families.json"
-const grid_vowel_families:TypeGridGlyph[] = vowel_families.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/vowel-families/")))
+import vowels from "./vowels/_vowels.json"
+const grid_vowels:TypeGridGlyph[] = vowels.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/vowels/")))
 
-import consonant_families from "./consonant-families/_consonant_families.json"
-const grid_consonant_families:TypeGridGlyph[] = consonant_families.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/consonant-families/")))
+import consonants from "./consonants/_consonants.json"
+const grid_consonants:TypeGridGlyph[] = consonants.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/consonants/")))
 
-import compounds from "./compounds/_compounds.json"
-const grid_compounds:TypeGridGlyph[] = compounds.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/compounds/")))
+import morae from "./morae/_morae.json"
+const grid_morae:TypeGridGlyph[] = morae.map((o) => (Lang2Object_to_GridGlyph(o,"/il-suastet/syllabary/morae/")))
 ---
 
 <Layout tab="syllabary < Il'suastet">
@@ -29,16 +29,16 @@ const grid_compounds:TypeGridGlyph[] = compounds.map((o) => (Lang2Object_to_Grid
         <Ariadne links={ariadne}/>
 
         <!-- consonants -->
-        <Section>consonant families</Section>
-        <GlyphGrid glyphs={grid_consonant_families} lang="lang2" />
+        <Section>consonants ({grid_consonants.length})</Section>
+        <GlyphGrid glyphs={grid_consonants} lang="lang2" />
 
         <!-- vowels -->
-        <Section>vowel families</Section>
-        <GlyphGrid glyphs={grid_vowel_families} lang="lang2" />
+        <Section>vowels ({grid_vowels.length})</Section>
+        <GlyphGrid glyphs={grid_vowels} lang="lang2" />
 
         <!-- compounds -->
-        <Section>all compounds</Section>
-        <GlyphGrid glyphs={grid_compounds} lang="lang2" />
+        <Section>morae ({grid_morae.length})</Section>
+        <GlyphGrid glyphs={grid_morae} lang="lang2" />
 
 
     </main>

@@ -2,38 +2,36 @@
 import Layout from "@/layouts/Layout.astro"
 import Ariadne from "@/components/Ariadne.astro"
 import Glyph from "@/components/Glyph.astro"
-import type { Lang2Compound } from "@/types/Lang2"
+import type { Lang2Mora } from "@/types/Lang2"
 import Section from "@/components/Section.astro"
 
-import compounds from "./_compounds.json"
+import morae from "./_morae.json"
 export async function getStaticPaths() {
-    return compounds.map((cmp:Lang2Compound) => ({
-        params: { slug: cmp.slug }, props: { cmp },
+    return morae.map((mora:Lang2Mora) => ({
+        params: { slug: mora.slug }, props: { mora },
     }));
 }
-const { cmp } = Astro.props;
+const { mora } = Astro.props;
 
 const ariadne = [
     { name: "home", url: "/" },
     { name: "Il'suastet", url: "/il-suastet" },
     { name: "syllabary", url: "/il-suastet/syllabary" },
-    { name: cmp.name }
+    { name: mora.name }
 ]
 
-import consonant_families from "../consonant-families/_consonant_families.json"
-const parent_consonant = consonant_families.find((cf) => (cf.slug===cmp.parent.consonant))
-import vowel_families from "../vowel-families/_vowel_families.json"
-import { undefined } from "astro:schema"
-const parent_vowel = vowel_families.find((vf) => (vf.slug===cmp.parent.vowel))
+import consonants from "../consonants/_consonants.json"
+const parent_consonant = consonants.find((consonant) => (("consonant" in mora.parent) && consonant.slug===mora.parent.consonant))
+import vowels from "../vowels/_vowels.json"
+const parent_vowel = vowels.find((vowel) => (("vowel" in mora.parent) && vowel.slug===mora.parent.vowel))
 
-const words = undefined
 ---
 
-<Layout tab={cmp.name}>
+<Layout tab={mora.name}>
     <main class="container max-w-xl px-8 mx-auto">
 
-        <h1>{cmp.name}</h1>
-        <div class="font-heading -mt-4 mb-2 text-3xl italic">compound</div>
+        <h1>{mora.name}</h1>
+        <div class="font-heading -mt-4 mb-2 text-3xl italic">mora</div>
         <Ariadne links={ariadne}/>
 
         <div class="my-4">
@@ -42,7 +40,7 @@ const words = undefined
                 <div>
                     <div class="glyph-container min-w-32 rounded-sm aspect-square h-full flex">
                         <div class="sub block m-auto">
-                            <Glyph src={cmp.src.img} lang="lang2" />
+                            <Glyph src={mora.src.img} lang="lang2" />
                         </div>
                     </div>
                 </div>
@@ -68,7 +66,7 @@ const words = undefined
             </div>
         </div>
 
-        <Section>words using this compound</Section>
+        <Section>words using this mora</Section>
         <p class="text-omen">(section pending)</p>
 
     </main>
