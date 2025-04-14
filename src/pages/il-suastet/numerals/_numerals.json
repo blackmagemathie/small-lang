@@ -1,7 +1,7 @@
 [
     {
         "number": 0,
-        "name": "unknown",
+        "name": "Etch",
         "ipa": "unknown",
         "roman": "0",
         "img": "glyph_15",
@@ -9,7 +9,7 @@
     },
     {
         "number": 1,
-        "name": "unknown",
+        "name": "Be",
         "ipa": "unknown",
         "roman": "1",
         "img": "glyph_16",
@@ -17,7 +17,7 @@
     },
     {
         "number": 2,
-        "name": "unknown",
+        "name": "De",
         "ipa": "unknown",
         "roman": "2",
         "img": "glyph_17",
@@ -25,7 +25,7 @@
     },
     {
         "number": 3,
-        "name": "unknown",
+        "name": "Ka",
         "ipa": "unknown",
         "roman": "3",
         "img": "glyph_18",
@@ -33,7 +33,7 @@
     },
     {
         "number": 4,
-        "name": "unknown",
+        "name": "To",
         "ipa": "unknown",
         "roman": "4",
         "img": "glyph_19",
@@ -41,7 +41,7 @@
     },
     {
         "number": 5,
-        "name": "unknown",
+        "name": "Se",
         "ipa": "unknown",
         "roman": "5",
         "img": "glyph_20",
@@ -49,7 +49,7 @@
     },
     {
         "number": 6,
-        "name": "unknown",
+        "name": "La",
         "ipa": "unknown",
         "roman": "6",
         "img": "glyph_21",
@@ -57,7 +57,7 @@
     },
     {
         "number": 7,
-        "name": "unknown",
+        "name": "Va",
         "ipa": "unknown",
         "roman": "7",
         "img": "glyph_22",
@@ -65,7 +65,7 @@
     },
     {
         "number": 8,
-        "name": "unknown",
+        "name": "Da",
         "ipa": "unknown",
         "roman": "8",
         "img": "glyph_23",
@@ -73,7 +73,7 @@
     },
     {
         "number": 9,
-        "name": "unknown",
+        "name": "Na",
         "ipa": "unknown",
         "roman": "9",
         "img": "glyph_24",
@@ -81,7 +81,7 @@
     },
     {
         "number": 10,
-        "name": "unknown",
+        "name": "Zr",
         "ipa": "unknown",
         "roman": "A",
         "img": "glyph_25",
@@ -89,7 +89,7 @@
     },
     {
         "number": 11,
-        "name": "unknown",
+        "name": "Tu",
         "ipa": "unknown",
         "roman": "B",
         "img": "glyph_26",
