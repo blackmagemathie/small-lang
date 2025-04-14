@@ -21,10 +21,9 @@ const ariadne = [
 ]
 
 import consonants from "../consonants/_consonants.json"
-const parent_consonant = consonants.find((consonant) => (consonant.slug===mora.parent.consonant))
+const parent_consonant = consonants.find(consonant => consonant.slug===mora.parent.consonant)
 import vowels from "../vowels/_vowels.json"
-const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
-
+const parent_vowel = vowels.find(vowel => vowel.slug===mora.parent.vowel)
 ---
 
 <Layout tab={mora.name}>
@@ -74,7 +73,7 @@ const parent_vowel = vowels.find((vowel) => (vowel.slug===mora.parent.vowel))
             </div>
         </div>
 
-        <Section>related morae</Section>
+        <Section>related words</Section>
         <p class="text-omen">(section pending)</p>
 
     </main>

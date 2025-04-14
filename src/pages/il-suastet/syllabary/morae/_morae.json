@@ -1,32 +1,2642 @@
 [
     {
-        "slug": "bu",
-        "name": "Bu",
-        "img": "dummy3",
-        "sound": "cmpd_bu",
+        "slug": "tll",
+        "name": "Tll",
+        "img": "glyph_44",
+        "sound": "audio_m_tll",
         "parent": {
-            "consonant": "baba",
-            "vowel": "hum"
+            "consonant": "t",
+            "vowel": "ll"
         }
     },
     {
-        "slug": "bo",
-        "name": "Bo",
-        "img": "dummy3",
-        "sound": "cmpd_bo",
+        "slug": "dll",
+        "name": "Dll",
+        "img": "glyph_58",
+        "sound": "audio_m_dll",
         "parent": {
-            "consonant": "baba",
-            "vowel": "hom"
+            "consonant": "d",
+            "vowel": "ll"
         }
     },
     {
-        "slug": "ka",
-        "name": "Ka",
-        "img": "dummy3",
-        "sound": "cmpd_ka",
+        "slug": "gll",
+        "name": "Gll",
+        "img": "glyph_72",
+        "sound": "audio_m_gll",
         "parent": {
-            "consonant": "keke",
-            "vowel": "ham"
+            "consonant": "g",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "kll",
+        "name": "Kll",
+        "img": "glyph_86",
+        "sound": "audio_m_kll",
+        "parent": {
+            "consonant": "k",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "mll",
+        "name": "Mll",
+        "img": "glyph_100",
+        "sound": "audio_m_mll",
+        "parent": {
+            "consonant": "m",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "nll",
+        "name": "Nll",
+        "img": "glyph_114",
+        "sound": "audio_m_nll",
+        "parent": {
+            "consonant": "n",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "fll",
+        "name": "Fll",
+        "img": "glyph_128",
+        "sound": "audio_m_fll",
+        "parent": {
+            "consonant": "f",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "bll",
+        "name": "Bll",
+        "img": "glyph_142",
+        "sound": "audio_m_bll",
+        "parent": {
+            "consonant": "b",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "vll",
+        "name": "Vll",
+        "img": "glyph_156",
+        "sound": "audio_m_vll",
+        "parent": {
+            "consonant": "v",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "pll",
+        "name": "Pll",
+        "img": "glyph_170",
+        "sound": "audio_m_pll",
+        "parent": {
+            "consonant": "p",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "rll",
+        "name": "Rll",
+        "img": "glyph_184",
+        "sound": "audio_m_rll",
+        "parent": {
+            "consonant": "r",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "lll",
+        "name": "Lll",
+        "img": "glyph_198",
+        "sound": "audio_m_lll",
+        "parent": {
+            "consonant": "l",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "thll",
+        "name": "Thll",
+        "img": "glyph_212",
+        "sound": "audio_m_thll",
+        "parent": {
+            "consonant": "th",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "dzll",
+        "name": "Dzll",
+        "img": "glyph_226",
+        "sound": "audio_m_dzll",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "sll",
+        "name": "Sll",
+        "img": "glyph_240",
+        "sound": "audio_m_sll",
+        "parent": {
+            "consonant": "s",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "shll",
+        "name": "Shll",
+        "img": "glyph_254",
+        "sound": "audio_m_shll",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "zll",
+        "name": "Zll",
+        "img": "glyph_268",
+        "sound": "audio_m_zll",
+        "parent": {
+            "consonant": "z",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "hll",
+        "name": "Hll",
+        "img": "glyph_282",
+        "sound": "audio_m_hll",
+        "parent": {
+            "consonant": "h",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "chll",
+        "name": "Chll",
+        "img": "glyph_296",
+        "sound": "audio_m_chll",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "stll",
+        "name": "Stll",
+        "img": "glyph_310",
+        "sound": "audio_m_stll",
+        "parent": {
+            "consonant": "st",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "scll",
+        "name": "Scll",
+        "img": "glyph_324",
+        "sound": "audio_m_scll",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "szll",
+        "name": "Szll",
+        "img": "glyph_338",
+        "sound": "audio_m_szll",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "ll"
+        }
+    },
+    {
+        "slug": "tyr",
+        "name": "Tyr",
+        "img": "glyph_45",
+        "sound": "audio_m_tyr",
+        "parent": {
+            "consonant": "t",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "dyr",
+        "name": "Dyr",
+        "img": "glyph_59",
+        "sound": "audio_m_dyr",
+        "parent": {
+            "consonant": "d",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "gyr",
+        "name": "Gyr",
+        "img": "glyph_73",
+        "sound": "audio_m_gyr",
+        "parent": {
+            "consonant": "g",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "kyr",
+        "name": "Kyr",
+        "img": "glyph_87",
+        "sound": "audio_m_kyr",
+        "parent": {
+            "consonant": "k",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "myr",
+        "name": "Myr",
+        "img": "glyph_101",
+        "sound": "audio_m_myr",
+        "parent": {
+            "consonant": "m",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "nyr",
+        "name": "Nyr",
+        "img": "glyph_115",
+        "sound": "audio_m_nyr",
+        "parent": {
+            "consonant": "n",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "fyr",
+        "name": "Fyr",
+        "img": "glyph_129",
+        "sound": "audio_m_fyr",
+        "parent": {
+            "consonant": "f",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "byr",
+        "name": "Byr",
+        "img": "glyph_143",
+        "sound": "audio_m_byr",
+        "parent": {
+            "consonant": "b",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "vyr",
+        "name": "Vyr",
+        "img": "glyph_157",
+        "sound": "audio_m_vyr",
+        "parent": {
+            "consonant": "v",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "pyr",
+        "name": "Pyr",
+        "img": "glyph_171",
+        "sound": "audio_m_pyr",
+        "parent": {
+            "consonant": "p",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "ryr",
+        "name": "Ryr",
+        "img": "glyph_185",
+        "sound": "audio_m_ryr",
+        "parent": {
+            "consonant": "r",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "lyr",
+        "name": "Lyr",
+        "img": "glyph_199",
+        "sound": "audio_m_lyr",
+        "parent": {
+            "consonant": "l",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "thyr",
+        "name": "Thyr",
+        "img": "glyph_213",
+        "sound": "audio_m_thyr",
+        "parent": {
+            "consonant": "th",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "dzyr",
+        "name": "Dzyr",
+        "img": "glyph_227",
+        "sound": "audio_m_dzyr",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "syr",
+        "name": "Syr",
+        "img": "glyph_241",
+        "sound": "audio_m_syr",
+        "parent": {
+            "consonant": "s",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "shyr",
+        "name": "Shyr",
+        "img": "glyph_255",
+        "sound": "audio_m_shyr",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "zyr",
+        "name": "Zyr",
+        "img": "glyph_269",
+        "sound": "audio_m_zyr",
+        "parent": {
+            "consonant": "z",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "hyr",
+        "name": "Hyr",
+        "img": "glyph_283",
+        "sound": "audio_m_hyr",
+        "parent": {
+            "consonant": "h",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "chyr",
+        "name": "Chyr",
+        "img": "glyph_297",
+        "sound": "audio_m_chyr",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "styr",
+        "name": "Styr",
+        "img": "glyph_311",
+        "sound": "audio_m_styr",
+        "parent": {
+            "consonant": "st",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "scyr",
+        "name": "Scyr",
+        "img": "glyph_325",
+        "sound": "audio_m_scyr",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "szyr",
+        "name": "Szyr",
+        "img": "glyph_339",
+        "sound": "audio_m_szyr",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "yr"
+        }
+    },
+    {
+        "slug": "ter",
+        "name": "Ter",
+        "img": "glyph_46",
+        "sound": "audio_m_ter",
+        "parent": {
+            "consonant": "t",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "der",
+        "name": "Der",
+        "img": "glyph_60",
+        "sound": "audio_m_der",
+        "parent": {
+            "consonant": "d",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ger",
+        "name": "Ger",
+        "img": "glyph_74",
+        "sound": "audio_m_ger",
+        "parent": {
+            "consonant": "g",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ker",
+        "name": "Ker",
+        "img": "glyph_88",
+        "sound": "audio_m_ker",
+        "parent": {
+            "consonant": "k",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "mer",
+        "name": "Mer",
+        "img": "glyph_102",
+        "sound": "audio_m_mer",
+        "parent": {
+            "consonant": "m",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ner",
+        "name": "Ner",
+        "img": "glyph_116",
+        "sound": "audio_m_ner",
+        "parent": {
+            "consonant": "n",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "fer",
+        "name": "Fer",
+        "img": "glyph_130",
+        "sound": "audio_m_fer",
+        "parent": {
+            "consonant": "f",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ber",
+        "name": "Ber",
+        "img": "glyph_144",
+        "sound": "audio_m_ber",
+        "parent": {
+            "consonant": "b",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ver",
+        "name": "Ver",
+        "img": "glyph_158",
+        "sound": "audio_m_ver",
+        "parent": {
+            "consonant": "v",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "per",
+        "name": "Per",
+        "img": "glyph_172",
+        "sound": "audio_m_per",
+        "parent": {
+            "consonant": "p",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "rer",
+        "name": "Rer",
+        "img": "glyph_186",
+        "sound": "audio_m_rer",
+        "parent": {
+            "consonant": "r",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ler",
+        "name": "Ler",
+        "img": "glyph_200",
+        "sound": "audio_m_ler",
+        "parent": {
+            "consonant": "l",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ther",
+        "name": "Ther",
+        "img": "glyph_214",
+        "sound": "audio_m_ther",
+        "parent": {
+            "consonant": "th",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "dzer",
+        "name": "Dzer",
+        "img": "glyph_228",
+        "sound": "audio_m_dzer",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ser",
+        "name": "Ser",
+        "img": "glyph_242",
+        "sound": "audio_m_ser",
+        "parent": {
+            "consonant": "s",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "sher",
+        "name": "Sher",
+        "img": "glyph_256",
+        "sound": "audio_m_sher",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "zer",
+        "name": "Zer",
+        "img": "glyph_270",
+        "sound": "audio_m_zer",
+        "parent": {
+            "consonant": "z",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "her",
+        "name": "Her",
+        "img": "glyph_284",
+        "sound": "audio_m_her",
+        "parent": {
+            "consonant": "h",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "cher",
+        "name": "Cher",
+        "img": "glyph_298",
+        "sound": "audio_m_cher",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "ster",
+        "name": "Ster",
+        "img": "glyph_312",
+        "sound": "audio_m_ster",
+        "parent": {
+            "consonant": "st",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "scer",
+        "name": "Scer",
+        "img": "glyph_326",
+        "sound": "audio_m_scer",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "szer",
+        "name": "Szer",
+        "img": "glyph_340",
+        "sound": "audio_m_szer",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "er"
+        }
+    },
+    {
+        "slug": "teh",
+        "name": "Teh",
+        "img": "glyph_47",
+        "sound": "audio_m_teh",
+        "parent": {
+            "consonant": "t",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "deh",
+        "name": "Deh",
+        "img": "glyph_61",
+        "sound": "audio_m_deh",
+        "parent": {
+            "consonant": "d",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "geh",
+        "name": "Geh",
+        "img": "glyph_75",
+        "sound": "audio_m_geh",
+        "parent": {
+            "consonant": "g",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "keh",
+        "name": "Keh",
+        "img": "glyph_89",
+        "sound": "audio_m_keh",
+        "parent": {
+            "consonant": "k",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "meh",
+        "name": "Meh",
+        "img": "glyph_103",
+        "sound": "audio_m_meh",
+        "parent": {
+            "consonant": "m",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "neh",
+        "name": "Neh",
+        "img": "glyph_117",
+        "sound": "audio_m_neh",
+        "parent": {
+            "consonant": "n",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "feh",
+        "name": "Feh",
+        "img": "glyph_131",
+        "sound": "audio_m_feh",
+        "parent": {
+            "consonant": "f",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "beh",
+        "name": "Beh",
+        "img": "glyph_145",
+        "sound": "audio_m_beh",
+        "parent": {
+            "consonant": "b",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "veh",
+        "name": "Veh",
+        "img": "glyph_159",
+        "sound": "audio_m_veh",
+        "parent": {
+            "consonant": "v",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "peh",
+        "name": "Peh",
+        "img": "glyph_173",
+        "sound": "audio_m_peh",
+        "parent": {
+            "consonant": "p",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "reh",
+        "name": "Reh",
+        "img": "glyph_187",
+        "sound": "audio_m_reh",
+        "parent": {
+            "consonant": "r",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "leh",
+        "name": "Leh",
+        "img": "glyph_201",
+        "sound": "audio_m_leh",
+        "parent": {
+            "consonant": "l",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "theh",
+        "name": "Theh",
+        "img": "glyph_215",
+        "sound": "audio_m_theh",
+        "parent": {
+            "consonant": "th",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "dzeh",
+        "name": "Dzeh",
+        "img": "glyph_229",
+        "sound": "audio_m_dzeh",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "seh",
+        "name": "Seh",
+        "img": "glyph_243",
+        "sound": "audio_m_seh",
+        "parent": {
+            "consonant": "s",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "sheh",
+        "name": "Sheh",
+        "img": "glyph_257",
+        "sound": "audio_m_sheh",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "zeh",
+        "name": "Zeh",
+        "img": "glyph_271",
+        "sound": "audio_m_zeh",
+        "parent": {
+            "consonant": "z",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "heh",
+        "name": "Heh",
+        "img": "glyph_285",
+        "sound": "audio_m_heh",
+        "parent": {
+            "consonant": "h",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "cheh",
+        "name": "Cheh",
+        "img": "glyph_299",
+        "sound": "audio_m_cheh",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "steh",
+        "name": "Steh",
+        "img": "glyph_313",
+        "sound": "audio_m_steh",
+        "parent": {
+            "consonant": "st",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "sceh",
+        "name": "Sceh",
+        "img": "glyph_327",
+        "sound": "audio_m_sceh",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "szeh",
+        "name": "Szeh",
+        "img": "glyph_341",
+        "sound": "audio_m_szeh",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "eh"
+        }
+    },
+    {
+        "slug": "tei",
+        "name": "Tei",
+        "img": "glyph_48",
+        "sound": "audio_m_tei",
+        "parent": {
+            "consonant": "t",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "dei",
+        "name": "Dei",
+        "img": "glyph_62",
+        "sound": "audio_m_dei",
+        "parent": {
+            "consonant": "d",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "gei",
+        "name": "Gei",
+        "img": "glyph_76",
+        "sound": "audio_m_gei",
+        "parent": {
+            "consonant": "g",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "kei",
+        "name": "Kei",
+        "img": "glyph_90",
+        "sound": "audio_m_kei",
+        "parent": {
+            "consonant": "k",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "mei",
+        "name": "Mei",
+        "img": "glyph_104",
+        "sound": "audio_m_mei",
+        "parent": {
+            "consonant": "m",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "nei",
+        "name": "Nei",
+        "img": "glyph_118",
+        "sound": "audio_m_nei",
+        "parent": {
+            "consonant": "n",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "fei",
+        "name": "Fei",
+        "img": "glyph_132",
+        "sound": "audio_m_fei",
+        "parent": {
+            "consonant": "f",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "bei",
+        "name": "Bei",
+        "img": "glyph_146",
+        "sound": "audio_m_bei",
+        "parent": {
+            "consonant": "b",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "vei",
+        "name": "Vei",
+        "img": "glyph_160",
+        "sound": "audio_m_vei",
+        "parent": {
+            "consonant": "v",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "pei",
+        "name": "Pei",
+        "img": "glyph_174",
+        "sound": "audio_m_pei",
+        "parent": {
+            "consonant": "p",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "rei",
+        "name": "Rei",
+        "img": "glyph_188",
+        "sound": "audio_m_rei",
+        "parent": {
+            "consonant": "r",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "lei",
+        "name": "Lei",
+        "img": "glyph_202",
+        "sound": "audio_m_lei",
+        "parent": {
+            "consonant": "l",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "thei",
+        "name": "Thei",
+        "img": "glyph_216",
+        "sound": "audio_m_thei",
+        "parent": {
+            "consonant": "th",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "dzei",
+        "name": "Dzei",
+        "img": "glyph_230",
+        "sound": "audio_m_dzei",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "sei",
+        "name": "Sei",
+        "img": "glyph_244",
+        "sound": "audio_m_sei",
+        "parent": {
+            "consonant": "s",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "shei",
+        "name": "Shei",
+        "img": "glyph_258",
+        "sound": "audio_m_shei",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "zei",
+        "name": "Zei",
+        "img": "glyph_272",
+        "sound": "audio_m_zei",
+        "parent": {
+            "consonant": "z",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "hei",
+        "name": "Hei",
+        "img": "glyph_286",
+        "sound": "audio_m_hei",
+        "parent": {
+            "consonant": "h",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "chei",
+        "name": "Chei",
+        "img": "glyph_300",
+        "sound": "audio_m_chei",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "stei",
+        "name": "Stei",
+        "img": "glyph_314",
+        "sound": "audio_m_stei",
+        "parent": {
+            "consonant": "st",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "scei",
+        "name": "Scei",
+        "img": "glyph_328",
+        "sound": "audio_m_scei",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "szei",
+        "name": "Szei",
+        "img": "glyph_342",
+        "sound": "audio_m_szei",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "ei"
+        }
+    },
+    {
+        "slug": "tii",
+        "name": "Tii",
+        "img": "glyph_49",
+        "sound": "audio_m_tii",
+        "parent": {
+            "consonant": "t",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "dii",
+        "name": "Dii",
+        "img": "glyph_63",
+        "sound": "audio_m_dii",
+        "parent": {
+            "consonant": "d",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "gii",
+        "name": "Gii",
+        "img": "glyph_77",
+        "sound": "audio_m_gii",
+        "parent": {
+            "consonant": "g",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "kii",
+        "name": "Kii",
+        "img": "glyph_91",
+        "sound": "audio_m_kii",
+        "parent": {
+            "consonant": "k",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "mii",
+        "name": "Mii",
+        "img": "glyph_105",
+        "sound": "audio_m_mii",
+        "parent": {
+            "consonant": "m",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "nii",
+        "name": "Nii",
+        "img": "glyph_119",
+        "sound": "audio_m_nii",
+        "parent": {
+            "consonant": "n",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "fii",
+        "name": "Fii",
+        "img": "glyph_133",
+        "sound": "audio_m_fii",
+        "parent": {
+            "consonant": "f",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "bii",
+        "name": "Bii",
+        "img": "glyph_147",
+        "sound": "audio_m_bii",
+        "parent": {
+            "consonant": "b",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "vii",
+        "name": "Vii",
+        "img": "glyph_161",
+        "sound": "audio_m_vii",
+        "parent": {
+            "consonant": "v",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "pii",
+        "name": "Pii",
+        "img": "glyph_175",
+        "sound": "audio_m_pii",
+        "parent": {
+            "consonant": "p",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "rii",
+        "name": "Rii",
+        "img": "glyph_189",
+        "sound": "audio_m_rii",
+        "parent": {
+            "consonant": "r",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "lii",
+        "name": "Lii",
+        "img": "glyph_203",
+        "sound": "audio_m_lii",
+        "parent": {
+            "consonant": "l",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "thii",
+        "name": "Thii",
+        "img": "glyph_217",
+        "sound": "audio_m_thii",
+        "parent": {
+            "consonant": "th",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "dzii",
+        "name": "Dzii",
+        "img": "glyph_231",
+        "sound": "audio_m_dzii",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "sii",
+        "name": "Sii",
+        "img": "glyph_245",
+        "sound": "audio_m_sii",
+        "parent": {
+            "consonant": "s",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "shii",
+        "name": "Shii",
+        "img": "glyph_259",
+        "sound": "audio_m_shii",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "zii",
+        "name": "Zii",
+        "img": "glyph_273",
+        "sound": "audio_m_zii",
+        "parent": {
+            "consonant": "z",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "hii",
+        "name": "Hii",
+        "img": "glyph_287",
+        "sound": "audio_m_hii",
+        "parent": {
+            "consonant": "h",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "chii",
+        "name": "Chii",
+        "img": "glyph_301",
+        "sound": "audio_m_chii",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "stii",
+        "name": "Stii",
+        "img": "glyph_315",
+        "sound": "audio_m_stii",
+        "parent": {
+            "consonant": "st",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "scii",
+        "name": "Scii",
+        "img": "glyph_329",
+        "sound": "audio_m_scii",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "szii",
+        "name": "Szii",
+        "img": "glyph_343",
+        "sound": "audio_m_szii",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "ii"
+        }
+    },
+    {
+        "slug": "toh",
+        "name": "Toh",
+        "img": "glyph_50",
+        "sound": "audio_m_toh",
+        "parent": {
+            "consonant": "t",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "doh",
+        "name": "Doh",
+        "img": "glyph_64",
+        "sound": "audio_m_doh",
+        "parent": {
+            "consonant": "d",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "goh",
+        "name": "Goh",
+        "img": "glyph_78",
+        "sound": "audio_m_goh",
+        "parent": {
+            "consonant": "g",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "koh",
+        "name": "Koh",
+        "img": "glyph_92",
+        "sound": "audio_m_koh",
+        "parent": {
+            "consonant": "k",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "moh",
+        "name": "Moh",
+        "img": "glyph_106",
+        "sound": "audio_m_moh",
+        "parent": {
+            "consonant": "m",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "noh",
+        "name": "Noh",
+        "img": "glyph_120",
+        "sound": "audio_m_noh",
+        "parent": {
+            "consonant": "n",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "foh",
+        "name": "Foh",
+        "img": "glyph_134",
+        "sound": "audio_m_foh",
+        "parent": {
+            "consonant": "f",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "boh",
+        "name": "Boh",
+        "img": "glyph_148",
+        "sound": "audio_m_boh",
+        "parent": {
+            "consonant": "b",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "voh",
+        "name": "Voh",
+        "img": "glyph_162",
+        "sound": "audio_m_voh",
+        "parent": {
+            "consonant": "v",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "poh",
+        "name": "Poh",
+        "img": "glyph_176",
+        "sound": "audio_m_poh",
+        "parent": {
+            "consonant": "p",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "roh",
+        "name": "Roh",
+        "img": "glyph_190",
+        "sound": "audio_m_roh",
+        "parent": {
+            "consonant": "r",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "loh",
+        "name": "Loh",
+        "img": "glyph_204",
+        "sound": "audio_m_loh",
+        "parent": {
+            "consonant": "l",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "thoh",
+        "name": "Thoh",
+        "img": "glyph_218",
+        "sound": "audio_m_thoh",
+        "parent": {
+            "consonant": "th",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "dzoh",
+        "name": "Dzoh",
+        "img": "glyph_232",
+        "sound": "audio_m_dzoh",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "soh",
+        "name": "Soh",
+        "img": "glyph_246",
+        "sound": "audio_m_soh",
+        "parent": {
+            "consonant": "s",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "shoh",
+        "name": "Shoh",
+        "img": "glyph_260",
+        "sound": "audio_m_shoh",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "zoh",
+        "name": "Zoh",
+        "img": "glyph_274",
+        "sound": "audio_m_zoh",
+        "parent": {
+            "consonant": "z",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "hoh",
+        "name": "Hoh",
+        "img": "glyph_288",
+        "sound": "audio_m_hoh",
+        "parent": {
+            "consonant": "h",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "choh",
+        "name": "Choh",
+        "img": "glyph_302",
+        "sound": "audio_m_choh",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "stoh",
+        "name": "Stoh",
+        "img": "glyph_316",
+        "sound": "audio_m_stoh",
+        "parent": {
+            "consonant": "st",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "scoh",
+        "name": "Scoh",
+        "img": "glyph_330",
+        "sound": "audio_m_scoh",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "szoh",
+        "name": "Szoh",
+        "img": "glyph_344",
+        "sound": "audio_m_szoh",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "oh"
+        }
+    },
+    {
+        "slug": "tuu",
+        "name": "Tuu",
+        "img": "glyph_51",
+        "sound": "audio_m_tuu",
+        "parent": {
+            "consonant": "t",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "duu",
+        "name": "Duu",
+        "img": "glyph_65",
+        "sound": "audio_m_duu",
+        "parent": {
+            "consonant": "d",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "guu",
+        "name": "Guu",
+        "img": "glyph_79",
+        "sound": "audio_m_guu",
+        "parent": {
+            "consonant": "g",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "kuu",
+        "name": "Kuu",
+        "img": "glyph_93",
+        "sound": "audio_m_kuu",
+        "parent": {
+            "consonant": "k",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "muu",
+        "name": "Muu",
+        "img": "glyph_107",
+        "sound": "audio_m_muu",
+        "parent": {
+            "consonant": "m",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "nuu",
+        "name": "Nuu",
+        "img": "glyph_121",
+        "sound": "audio_m_nuu",
+        "parent": {
+            "consonant": "n",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "fuu",
+        "name": "Fuu",
+        "img": "glyph_135",
+        "sound": "audio_m_fuu",
+        "parent": {
+            "consonant": "f",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "buu",
+        "name": "Buu",
+        "img": "glyph_149",
+        "sound": "audio_m_buu",
+        "parent": {
+            "consonant": "b",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "vuu",
+        "name": "Vuu",
+        "img": "glyph_163",
+        "sound": "audio_m_vuu",
+        "parent": {
+            "consonant": "v",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "puu",
+        "name": "Puu",
+        "img": "glyph_177",
+        "sound": "audio_m_puu",
+        "parent": {
+            "consonant": "p",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "ruu",
+        "name": "Ruu",
+        "img": "glyph_191",
+        "sound": "audio_m_ruu",
+        "parent": {
+            "consonant": "r",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "luu",
+        "name": "Luu",
+        "img": "glyph_205",
+        "sound": "audio_m_luu",
+        "parent": {
+            "consonant": "l",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "thuu",
+        "name": "Thuu",
+        "img": "glyph_219",
+        "sound": "audio_m_thuu",
+        "parent": {
+            "consonant": "th",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "dzuu",
+        "name": "Dzuu",
+        "img": "glyph_233",
+        "sound": "audio_m_dzuu",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "suu",
+        "name": "Suu",
+        "img": "glyph_247",
+        "sound": "audio_m_suu",
+        "parent": {
+            "consonant": "s",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "shuu",
+        "name": "Shuu",
+        "img": "glyph_261",
+        "sound": "audio_m_shuu",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "zuu",
+        "name": "Zuu",
+        "img": "glyph_275",
+        "sound": "audio_m_zuu",
+        "parent": {
+            "consonant": "z",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "huu",
+        "name": "Huu",
+        "img": "glyph_289",
+        "sound": "audio_m_huu",
+        "parent": {
+            "consonant": "h",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "chuu",
+        "name": "Chuu",
+        "img": "glyph_303",
+        "sound": "audio_m_chuu",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "stuu",
+        "name": "Stuu",
+        "img": "glyph_317",
+        "sound": "audio_m_stuu",
+        "parent": {
+            "consonant": "st",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "scuu",
+        "name": "Scuu",
+        "img": "glyph_331",
+        "sound": "audio_m_scuu",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "szuu",
+        "name": "Szuu",
+        "img": "glyph_345",
+        "sound": "audio_m_szuu",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "uu"
+        }
+    },
+    {
+        "slug": "tuh",
+        "name": "Tuh",
+        "img": "glyph_52",
+        "sound": "audio_m_tuh",
+        "parent": {
+            "consonant": "t",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "duh",
+        "name": "Duh",
+        "img": "glyph_66",
+        "sound": "audio_m_duh",
+        "parent": {
+            "consonant": "d",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "guh",
+        "name": "Guh",
+        "img": "glyph_80",
+        "sound": "audio_m_guh",
+        "parent": {
+            "consonant": "g",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "kuh",
+        "name": "Kuh",
+        "img": "glyph_94",
+        "sound": "audio_m_kuh",
+        "parent": {
+            "consonant": "k",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "muh",
+        "name": "Muh",
+        "img": "glyph_108",
+        "sound": "audio_m_muh",
+        "parent": {
+            "consonant": "m",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "nuh",
+        "name": "Nuh",
+        "img": "glyph_122",
+        "sound": "audio_m_nuh",
+        "parent": {
+            "consonant": "n",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "fuh",
+        "name": "Fuh",
+        "img": "glyph_136",
+        "sound": "audio_m_fuh",
+        "parent": {
+            "consonant": "f",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "buh",
+        "name": "Buh",
+        "img": "glyph_150",
+        "sound": "audio_m_buh",
+        "parent": {
+            "consonant": "b",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "vuh",
+        "name": "Vuh",
+        "img": "glyph_164",
+        "sound": "audio_m_vuh",
+        "parent": {
+            "consonant": "v",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "puh",
+        "name": "Puh",
+        "img": "glyph_178",
+        "sound": "audio_m_puh",
+        "parent": {
+            "consonant": "p",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "ruh",
+        "name": "Ruh",
+        "img": "glyph_192",
+        "sound": "audio_m_ruh",
+        "parent": {
+            "consonant": "r",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "luh",
+        "name": "Luh",
+        "img": "glyph_206",
+        "sound": "audio_m_luh",
+        "parent": {
+            "consonant": "l",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "thuh",
+        "name": "Thuh",
+        "img": "glyph_220",
+        "sound": "audio_m_thuh",
+        "parent": {
+            "consonant": "th",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "dzuh",
+        "name": "Dzuh",
+        "img": "glyph_234",
+        "sound": "audio_m_dzuh",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "suh",
+        "name": "Suh",
+        "img": "glyph_248",
+        "sound": "audio_m_suh",
+        "parent": {
+            "consonant": "s",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "shuh",
+        "name": "Shuh",
+        "img": "glyph_262",
+        "sound": "audio_m_shuh",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "zuh",
+        "name": "Zuh",
+        "img": "glyph_276",
+        "sound": "audio_m_zuh",
+        "parent": {
+            "consonant": "z",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "huh",
+        "name": "Huh",
+        "img": "glyph_290",
+        "sound": "audio_m_huh",
+        "parent": {
+            "consonant": "h",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "chuh",
+        "name": "Chuh",
+        "img": "glyph_304",
+        "sound": "audio_m_chuh",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "stuh",
+        "name": "Stuh",
+        "img": "glyph_318",
+        "sound": "audio_m_stuh",
+        "parent": {
+            "consonant": "st",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "scuh",
+        "name": "Scuh",
+        "img": "glyph_332",
+        "sound": "audio_m_scuh",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "szuh",
+        "name": "Szuh",
+        "img": "glyph_346",
+        "sound": "audio_m_szuh",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "uh"
+        }
+    },
+    {
+        "slug": "tar",
+        "name": "Tar",
+        "img": "glyph_53",
+        "sound": "audio_m_tar",
+        "parent": {
+            "consonant": "t",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "dar",
+        "name": "Dar",
+        "img": "glyph_67",
+        "sound": "audio_m_dar",
+        "parent": {
+            "consonant": "d",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "gar",
+        "name": "Gar",
+        "img": "glyph_81",
+        "sound": "audio_m_gar",
+        "parent": {
+            "consonant": "g",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "kar",
+        "name": "Kar",
+        "img": "glyph_95",
+        "sound": "audio_m_kar",
+        "parent": {
+            "consonant": "k",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "mar",
+        "name": "Mar",
+        "img": "glyph_109",
+        "sound": "audio_m_mar",
+        "parent": {
+            "consonant": "m",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "nar",
+        "name": "Nar",
+        "img": "glyph_123",
+        "sound": "audio_m_nar",
+        "parent": {
+            "consonant": "n",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "far",
+        "name": "Far",
+        "img": "glyph_137",
+        "sound": "audio_m_far",
+        "parent": {
+            "consonant": "f",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "bar",
+        "name": "Bar",
+        "img": "glyph_151",
+        "sound": "audio_m_bar",
+        "parent": {
+            "consonant": "b",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "var",
+        "name": "Var",
+        "img": "glyph_165",
+        "sound": "audio_m_var",
+        "parent": {
+            "consonant": "v",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "par",
+        "name": "Par",
+        "img": "glyph_179",
+        "sound": "audio_m_par",
+        "parent": {
+            "consonant": "p",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "rar",
+        "name": "Rar",
+        "img": "glyph_193",
+        "sound": "audio_m_rar",
+        "parent": {
+            "consonant": "r",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "lar",
+        "name": "Lar",
+        "img": "glyph_207",
+        "sound": "audio_m_lar",
+        "parent": {
+            "consonant": "l",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "thar",
+        "name": "Thar",
+        "img": "glyph_221",
+        "sound": "audio_m_thar",
+        "parent": {
+            "consonant": "th",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "dzar",
+        "name": "Dzar",
+        "img": "glyph_235",
+        "sound": "audio_m_dzar",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "sar",
+        "name": "Sar",
+        "img": "glyph_249",
+        "sound": "audio_m_sar",
+        "parent": {
+            "consonant": "s",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "shar",
+        "name": "Shar",
+        "img": "glyph_263",
+        "sound": "audio_m_shar",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "zar",
+        "name": "Zar",
+        "img": "glyph_277",
+        "sound": "audio_m_zar",
+        "parent": {
+            "consonant": "z",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "har",
+        "name": "Har",
+        "img": "glyph_291",
+        "sound": "audio_m_har",
+        "parent": {
+            "consonant": "h",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "char",
+        "name": "Char",
+        "img": "glyph_305",
+        "sound": "audio_m_char",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "star",
+        "name": "Star",
+        "img": "glyph_319",
+        "sound": "audio_m_star",
+        "parent": {
+            "consonant": "st",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "scar",
+        "name": "Scar",
+        "img": "glyph_333",
+        "sound": "audio_m_scar",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "szar",
+        "name": "Szar",
+        "img": "glyph_347",
+        "sound": "audio_m_szar",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "ar"
+        }
+    },
+    {
+        "slug": "taa",
+        "name": "Taa",
+        "img": "glyph_54",
+        "sound": "audio_m_taa",
+        "parent": {
+            "consonant": "t",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "daa",
+        "name": "Daa",
+        "img": "glyph_68",
+        "sound": "audio_m_daa",
+        "parent": {
+            "consonant": "d",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "gaa",
+        "name": "Gaa",
+        "img": "glyph_82",
+        "sound": "audio_m_gaa",
+        "parent": {
+            "consonant": "g",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "kaa",
+        "name": "Kaa",
+        "img": "glyph_96",
+        "sound": "audio_m_kaa",
+        "parent": {
+            "consonant": "k",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "maa",
+        "name": "Maa",
+        "img": "glyph_110",
+        "sound": "audio_m_maa",
+        "parent": {
+            "consonant": "m",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "naa",
+        "name": "Naa",
+        "img": "glyph_124",
+        "sound": "audio_m_naa",
+        "parent": {
+            "consonant": "n",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "faa",
+        "name": "Faa",
+        "img": "glyph_138",
+        "sound": "audio_m_faa",
+        "parent": {
+            "consonant": "f",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "baa",
+        "name": "Baa",
+        "img": "glyph_152",
+        "sound": "audio_m_baa",
+        "parent": {
+            "consonant": "b",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "vaa",
+        "name": "Vaa",
+        "img": "glyph_166",
+        "sound": "audio_m_vaa",
+        "parent": {
+            "consonant": "v",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "paa",
+        "name": "Paa",
+        "img": "glyph_180",
+        "sound": "audio_m_paa",
+        "parent": {
+            "consonant": "p",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "raa",
+        "name": "Raa",
+        "img": "glyph_194",
+        "sound": "audio_m_raa",
+        "parent": {
+            "consonant": "r",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "laa",
+        "name": "Laa",
+        "img": "glyph_208",
+        "sound": "audio_m_laa",
+        "parent": {
+            "consonant": "l",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "thaa",
+        "name": "Thaa",
+        "img": "glyph_222",
+        "sound": "audio_m_thaa",
+        "parent": {
+            "consonant": "th",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "dzaa",
+        "name": "Dzaa",
+        "img": "glyph_236",
+        "sound": "audio_m_dzaa",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "saa",
+        "name": "Saa",
+        "img": "glyph_250",
+        "sound": "audio_m_saa",
+        "parent": {
+            "consonant": "s",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "shaa",
+        "name": "Shaa",
+        "img": "glyph_264",
+        "sound": "audio_m_shaa",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "zaa",
+        "name": "Zaa",
+        "img": "glyph_278",
+        "sound": "audio_m_zaa",
+        "parent": {
+            "consonant": "z",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "haa",
+        "name": "Haa",
+        "img": "glyph_292",
+        "sound": "audio_m_haa",
+        "parent": {
+            "consonant": "h",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "chaa",
+        "name": "Chaa",
+        "img": "glyph_306",
+        "sound": "audio_m_chaa",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "staa",
+        "name": "Staa",
+        "img": "glyph_320",
+        "sound": "audio_m_staa",
+        "parent": {
+            "consonant": "st",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "scaa",
+        "name": "Scaa",
+        "img": "glyph_334",
+        "sound": "audio_m_scaa",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "szaa",
+        "name": "Szaa",
+        "img": "glyph_348",
+        "sound": "audio_m_szaa",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "aa"
+        }
+    },
+    {
+        "slug": "tih",
+        "name": "Tih",
+        "img": "glyph_55",
+        "sound": "audio_m_tih",
+        "parent": {
+            "consonant": "t",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "dih",
+        "name": "Dih",
+        "img": "glyph_69",
+        "sound": "audio_m_dih",
+        "parent": {
+            "consonant": "d",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "gih",
+        "name": "Gih",
+        "img": "glyph_83",
+        "sound": "audio_m_gih",
+        "parent": {
+            "consonant": "g",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "kih",
+        "name": "Kih",
+        "img": "glyph_97",
+        "sound": "audio_m_kih",
+        "parent": {
+            "consonant": "k",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "mih",
+        "name": "Mih",
+        "img": "glyph_111",
+        "sound": "audio_m_mih",
+        "parent": {
+            "consonant": "m",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "nih",
+        "name": "Nih",
+        "img": "glyph_125",
+        "sound": "audio_m_nih",
+        "parent": {
+            "consonant": "n",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "fih",
+        "name": "Fih",
+        "img": "glyph_139",
+        "sound": "audio_m_fih",
+        "parent": {
+            "consonant": "f",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "bih",
+        "name": "Bih",
+        "img": "glyph_153",
+        "sound": "audio_m_bih",
+        "parent": {
+            "consonant": "b",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "vih",
+        "name": "Vih",
+        "img": "glyph_167",
+        "sound": "audio_m_vih",
+        "parent": {
+            "consonant": "v",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "pih",
+        "name": "Pih",
+        "img": "glyph_181",
+        "sound": "audio_m_pih",
+        "parent": {
+            "consonant": "p",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "rih",
+        "name": "Rih",
+        "img": "glyph_195",
+        "sound": "audio_m_rih",
+        "parent": {
+            "consonant": "r",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "lih",
+        "name": "Lih",
+        "img": "glyph_209",
+        "sound": "audio_m_lih",
+        "parent": {
+            "consonant": "l",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "thih",
+        "name": "Thih",
+        "img": "glyph_223",
+        "sound": "audio_m_thih",
+        "parent": {
+            "consonant": "th",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "dzih",
+        "name": "Dzih",
+        "img": "glyph_237",
+        "sound": "audio_m_dzih",
+        "parent": {
+            "consonant": "dz",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "sih",
+        "name": "Sih",
+        "img": "glyph_251",
+        "sound": "audio_m_sih",
+        "parent": {
+            "consonant": "s",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "shih",
+        "name": "Shih",
+        "img": "glyph_265",
+        "sound": "audio_m_shih",
+        "parent": {
+            "consonant": "sh",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "zih",
+        "name": "Zih",
+        "img": "glyph_279",
+        "sound": "audio_m_zih",
+        "parent": {
+            "consonant": "z",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "hih",
+        "name": "Hih",
+        "img": "glyph_293",
+        "sound": "audio_m_hih",
+        "parent": {
+            "consonant": "h",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "chih",
+        "name": "Chih",
+        "img": "glyph_307",
+        "sound": "audio_m_chih",
+        "parent": {
+            "consonant": "ch",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "stih",
+        "name": "Stih",
+        "img": "glyph_321",
+        "sound": "audio_m_stih",
+        "parent": {
+            "consonant": "st",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "scih",
+        "name": "Scih",
+        "img": "glyph_335",
+        "sound": "audio_m_scih",
+        "parent": {
+            "consonant": "sc",
+            "vowel": "ih"
+        }
+    },
+    {
+        "slug": "szih",
+        "name": "Szih",
+        "img": "glyph_349",
+        "sound": "audio_m_szih",
+        "parent": {
+            "consonant": "sz",
+            "vowel": "ih"
         }
     }
 ]

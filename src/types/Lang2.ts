@@ -14,6 +14,7 @@ export interface Lang2Consonant {
     roman: string
     img: string
     sound?: string
+    variant: string
 }
 
 export interface Lang2Mora {

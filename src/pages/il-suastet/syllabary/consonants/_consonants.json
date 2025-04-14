@@ -1,26 +1,200 @@
 [
     {
-        "slug": "baba",
-        "name": "Baba",
-        "ipa": "b",
-        "roman": "B",
-        "img": "dummy2",
-        "sound": "baba"
+        "slug": "t",
+        "name": "T",
+        "ipa": "???",
+        "roman": "T",
+        "img": "glyph_43",
+        "sound": "audio_c_t",
+        "variant": "glyph_42"
     },
     {
-        "slug": "keke",
-        "name": "Keke",
-        "ipa": "k",
+        "slug": "d",
+        "name": "D",
+        "ipa": "???",
+        "roman": "D",
+        "img": "glyph_57",
+        "sound": "audio_c_d",
+        "variant": "glyph_56"
+    },
+    {
+        "slug": "g",
+        "name": "G",
+        "ipa": "???",
+        "roman": "G",
+        "img": "glyph_71",
+        "sound": "audio_c_g",
+        "variant": "glyph_70"
+    },
+    {
+        "slug": "k",
+        "name": "K",
+        "ipa": "???",
         "roman": "K",
-        "img": "dummy2",
-        "sound": "keke"
+        "img": "glyph_85",
+        "sound": "audio_c_k",
+        "variant": "glyph_84"
     },
     {
-        "slug": "jiji",
-        "name": "Jiji",
-        "ipa": "ʒ",
-        "roman": "J",
-        "img": "dummy2",
-        "sound": "jiji"
+        "slug": "m",
+        "name": "M",
+        "ipa": "???",
+        "roman": "M",
+        "img": "glyph_99",
+        "sound": "audio_c_m",
+        "variant": "glyph_98"
+    },
+    {
+        "slug": "n",
+        "name": "N",
+        "ipa": "???",
+        "roman": "N",
+        "img": "glyph_113",
+        "sound": "audio_c_n",
+        "variant": "glyph_112"
+    },
+    {
+        "slug": "f",
+        "name": "F",
+        "ipa": "???",
+        "roman": "F",
+        "img": "glyph_127",
+        "sound": "audio_c_f",
+        "variant": "glyph_126"
+    },
+    {
+        "slug": "b",
+        "name": "B",
+        "ipa": "???",
+        "roman": "B",
+        "img": "glyph_141",
+        "sound": "audio_c_b",
+        "variant": "glyph_140"
+    },
+    {
+        "slug": "v",
+        "name": "V",
+        "ipa": "???",
+        "roman": "V",
+        "img": "glyph_155",
+        "sound": "audio_c_v",
+        "variant": "glyph_154"
+    },
+    {
+        "slug": "p",
+        "name": "P",
+        "ipa": "???",
+        "roman": "P",
+        "img": "glyph_169",
+        "sound": "audio_c_p",
+        "variant": "glyph_168"
+    },
+    {
+        "slug": "r",
+        "name": "R",
+        "ipa": "???",
+        "roman": "R",
+        "img": "glyph_183",
+        "sound": "audio_c_r",
+        "variant": "glyph_182"
+    },
+    {
+        "slug": "l",
+        "name": "L",
+        "ipa": "???",
+        "roman": "L",
+        "img": "glyph_197",
+        "sound": "audio_c_l",
+        "variant": "glyph_196"
+    },
+    {
+        "slug": "th",
+        "name": "Th",
+        "ipa": "???",
+        "roman": "TH",
+        "img": "glyph_211",
+        "sound": "audio_c_th",
+        "variant": "glyph_210"
+    },
+    {
+        "slug": "dz",
+        "name": "Dz",
+        "ipa": "???",
+        "roman": "DZ",
+        "img": "glyph_225",
+        "sound": "audio_c_dz",
+        "variant": "glyph_224"
+    },
+    {
+        "slug": "s",
+        "name": "S",
+        "ipa": "???",
+        "roman": "S",
+        "img": "glyph_239",
+        "sound": "audio_c_s",
+        "variant": "glyph_238"
+    },
+    {
+        "slug": "sh",
+        "name": "Sh",
+        "ipa": "???",
+        "roman": "SH",
+        "img": "glyph_253",
+        "sound": "audio_c_sh",
+        "variant": "glyph_252"
+    },
+    {
+        "slug": "z",
+        "name": "Z",
+        "ipa": "???",
+        "roman": "Z",
+        "img": "glyph_267",
+        "sound": "audio_c_z",
+        "variant": "glyph_266"
+    },
+    {
+        "slug": "h",
+        "name": "H",
+        "ipa": "???",
+        "roman": "H",
+        "img": "glyph_281",
+        "sound": "audio_c_h",
+        "variant": "glyph_280"
+    },
+    {
+        "slug": "ch",
+        "name": "Ch",
+        "ipa": "???",
+        "roman": "CH",
+        "img": "glyph_295",
+        "sound": "audio_c_ch",
+        "variant": "glyph_294"
+    },
+    {
+        "slug": "st",
+        "name": "St",
+        "ipa": "???",
+        "roman": "ST",
+        "img": "glyph_309",
+        "sound": "audio_c_st",
+        "variant": "glyph_308"
+    },
+    {
+        "slug": "sc",
+        "name": "Sc",
+        "ipa": "???",
+        "roman": "SC",
+        "img": "glyph_323",
+        "sound": "audio_c_sc",
+        "variant": "glyph_322"
+    },
+    {
+        "slug": "sz",
+        "name": "Sz",
+        "ipa": "???",
+        "roman": "SZ",
+        "img": "glyph_337",
+        "sound": "audio_c_sz",
+        "variant": "glyph_336"
     }
 ]

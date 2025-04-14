@@ -1,26 +1,98 @@
 [
     {
-        "slug": "ham",
-        "name": "Ham",
-        "ipa": "a",
-        "roman": "A",
-        "img": "dummy1",
-        "sound": "ham"
+        "slug": "ll",
+        "name": "Ll",
+        "ipa": "???",
+        "roman": "ll",
+        "img": "glyph_30",
+        "sound": "audio_v_ll"
     },
     {
-        "slug": "hum",
-        "name": "Hum",
-        "ipa": "u",
-        "roman": "A",
-        "img": "dummy1",
-        "sound": "hum"
+        "slug": "yr",
+        "name": "Yr",
+        "ipa": "???",
+        "roman": "yr",
+        "img": "glyph_31",
+        "sound": "audio_v_yr"
     },
     {
-        "slug": "hom",
-        "name": "Hom",
-        "ipa": "ɵ",
-        "roman": "O",
-        "img": "dummy1",
-        "sound": "hom"
+        "slug": "er",
+        "name": "Er",
+        "ipa": "???",
+        "roman": "er",
+        "img": "glyph_32",
+        "sound": "audio_v_er"
+    },
+    {
+        "slug": "eh",
+        "name": "Eh",
+        "ipa": "???",
+        "roman": "eh",
+        "img": "glyph_33",
+        "sound": "audio_v_eh"
+    },
+    {
+        "slug": "ei",
+        "name": "Ei",
+        "ipa": "???",
+        "roman": "ei",
+        "img": "glyph_34",
+        "sound": "audio_v_ei"
+    },
+    {
+        "slug": "ii",
+        "name": "Ii",
+        "ipa": "???",
+        "roman": "ii",
+        "img": "glyph_35",
+        "sound": "audio_v_ii"
+    },
+    {
+        "slug": "oh",
+        "name": "Oh",
+        "ipa": "???",
+        "roman": "oh",
+        "img": "glyph_36",
+        "sound": "audio_v_oh"
+    },
+    {
+        "slug": "uu",
+        "name": "Uu",
+        "ipa": "???",
+        "roman": "uu",
+        "img": "glyph_37",
+        "sound": "audio_v_uu"
+    },
+    {
+        "slug": "uh",
+        "name": "Uh",
+        "ipa": "???",
+        "roman": "uh",
+        "img": "glyph_38",
+        "sound": "audio_v_uh"
+    },
+    {
+        "slug": "ar",
+        "name": "Ar",
+        "ipa": "???",
+        "roman": "ar",
+        "img": "glyph_39",
+        "sound": "audio_v_ar"
+    },
+    {
+        "slug": "aa",
+        "name": "Aa",
+        "ipa": "???",
+        "roman": "aa",
+        "img": "glyph_40",
+        "sound": "audio_v_aa"
+    },
+    {
+        "slug": "ih",
+        "name": "Ih",
+        "ipa": "???",
+        "roman": "ih",
+        "img": "glyph_41",
+        "sound": "audio_v_ih"
     }
 ]

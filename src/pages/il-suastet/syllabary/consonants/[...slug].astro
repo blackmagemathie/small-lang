@@ -40,6 +40,15 @@ const moraeFiltered = morae.filter((mora:Lang2Mora) => (mora.parent.consonant===
                         img={consonant.img}
                         lang="lang2"
                     />
+                    <div class="text-center">regular</div>
+                </div>
+                <div class="min-w-32">
+                    <GlyphBlock
+                        name={consonant.name}
+                        img={consonant.variant}
+                        lang="lang2"
+                    />
+                    <div class="text-center">terminal</div>
                 </div>
                 <div>
                     <div>IPA</div>

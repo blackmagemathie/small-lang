@@ -2,97 +2,97 @@
     {
         "number": 0,
         "name": "Etch",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "0",
         "img": "glyph_15",
-        "sound": "audio_15"
+        "sound": "audio_num_0"
     },
     {
         "number": 1,
         "name": "Be",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "1",
         "img": "glyph_16",
-        "sound": "audio_16"
+        "sound": "audio_num_1"
     },
     {
         "number": 2,
         "name": "De",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "2",
         "img": "glyph_17",
-        "sound": "audio_17"
+        "sound": "audio_num_2"
     },
     {
         "number": 3,
         "name": "Ka",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "3",
         "img": "glyph_18",
-        "sound": "audio_18"
+        "sound": "audio_num_3"
     },
     {
         "number": 4,
         "name": "To",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "4",
         "img": "glyph_19",
-        "sound": "audio_19"
+        "sound": "audio_num_4"
     },
     {
         "number": 5,
         "name": "Se",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "5",
         "img": "glyph_20",
-        "sound": "audio_20"
+        "sound": "audio_num_5"
     },
     {
         "number": 6,
         "name": "La",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "6",
         "img": "glyph_21",
-        "sound": "audio_21"
+        "sound": "audio_num_6"
     },
     {
         "number": 7,
         "name": "Va",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "7",
         "img": "glyph_22",
-        "sound": "audio_22"
+        "sound": "audio_num_7"
     },
     {
         "number": 8,
         "name": "Da",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "8",
         "img": "glyph_23",
-        "sound": "audio_23"
+        "sound": "audio_num_8"
     },
     {
         "number": 9,
         "name": "Na",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "9",
         "img": "glyph_24",
-        "sound": "audio_24"
+        "sound": "audio_num_9"
     },
     {
         "number": 10,
         "name": "Zr",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "A",
         "img": "glyph_25",
-        "sound": "audio_25"
+        "sound": "audio_num_A"
     },
     {
         "number": 11,
         "name": "Tu",
-        "ipa": "unknown",
+        "ipa": "???",
         "roman": "B",
         "img": "glyph_26",
-        "sound": "audio_26"
+        "sound": "audio_num_B"
     }
 ]
